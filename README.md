@@ -1,1 +1,1 @@
-# Repo for my personal webside
+# Repo for my personal website
