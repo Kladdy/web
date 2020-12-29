@@ -4,13 +4,55 @@ html
         title= `${title}`
         link(rel='stylesheet', href='/css/bootstrap.min.css')
         link(rel='stylesheet', href='/css/styles.css')
+        link(rel='stylesheet', href='/css/navbar.css')
+
+        link(href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet")
+
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
 
     body
+        .container
+            nav.navbar.navbar-expand-lg.navbar-light.bg-light.rounded
+                a.navbar-brand(href="#") Sigfrid Stjärnholm
+                button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation")
+                    span.navbar-toggler-icon
+                #navbarsExample09.collapse.navbar-collapse
+                    ul.navbar-nav.mr-auto
+                        li.nav-item.active
+                            a.nav-link(href="#")
+                                | Home 
+                            span.sr-only (current)
+                        li.nav-item
+                            a.nav-link(href="#") Link
+                        li.nav-item
+                            a.nav-link.disabled(href="#") Disabled
+                    ul.navbar-nav.ml-auto
+                        li.nav-item.dropdown
+                            if i18n.language === "sv"
+                                a#dropdown09.nav-link.dropdown-toggle(href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
+                                    span.flag-icon.flag-icon-se  
+                                    |  Svenska
+                                .dropdown-menu(aria-labelledby="dropdown09")
+                                    a.dropdown-item(href="?lng=en")
+                                        span.flag-icon.flag-icon-gb 
+                                        |   English
+                            if i18n.language === "en"
+                                a#dropdown09.nav-link.dropdown-toggle(href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
+                                    span.flag-icon.flag-icon-gb  
+                                    |  English
+                                .dropdown-menu(aria-labelledby="dropdown09")
+                                    a.dropdown-item(href="?lng=sv")
+                                        span.flag-icon.flag-icon-se 
+                                        |   Svenska
+
+        // Bootstrap core JavaScript
+        // Placed at the end of the document so the pages load faster
+        script(src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous")
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js")
+
         div.container.listing-reg
             h1= t("index.selected_language")
 
         block content
-
-        div.container.listing-reg
-            a(href='?lng=en') English <br>
-            a(href='?lng=sv') Swedish
