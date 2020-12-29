@@ -1,0 +1,7 @@
+{
+    "index": {
+        "selected_language": "English",
+        "submitText": "Submit",
+        "buttonHTML": "<button onClick='window.location.reload();'>$t(buttonText)</button>"
+    }
+}

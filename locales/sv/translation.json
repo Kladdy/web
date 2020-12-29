@@ -1,0 +1,7 @@
+{
+    "index": {
+        "selected_language": "Svenska",
+        "submitText": "Skicka",
+        "buttonHTML": "<button onClick='window.location.reload();'>$t(buttonText)</button>"
+    }
+}

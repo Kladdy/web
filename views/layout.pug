@@ -1,12 +1,16 @@
 doctype html
 html
-  head
-    title= `${title}`
-    link(rel='stylesheet', href='/css/bootstrap.min.css')
-    link(rel='stylesheet', href='/css/styles.css')
+    head
+        title= `${title}`
+        link(rel='stylesheet', href='/css/bootstrap.min.css')
+        link(rel='stylesheet', href='/css/styles.css')
 
-  body
-    div.container.listing-reg
-      h1 My Amazing App
+    body
+        div.container.listing-reg
+            h1= t("index.selected_language")
 
-      block content
+        block content
+
+        div.container.listing-reg
+            a(href='?lng=en') English <br>
+            a(href='?lng=sv') Swedish
