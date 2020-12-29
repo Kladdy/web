@@ -15,19 +15,23 @@ html
     body
         .container
             nav.navbar.navbar-expand-lg.navbar-light.bg-light.rounded
-                a.navbar-brand(href="#") Sigfrid Stjärnholm
+                span.navbar-brand(href="#home") Sigfrid Stjärnholm
                 button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation")
                     span.navbar-toggler-icon
                 #navbarsExample09.collapse.navbar-collapse
-                    ul.navbar-nav.mr-auto
-                        li.nav-item.active
-                            a.nav-link(href="#")
+                    ul.nav.nav-pills.mr-auto
+                        li.nav-item
+                            a.nav-link.active(data-toggle="tab", href="#home", role="tab", aria-controls="profile", aria-selected="false")
                                 | Home 
-                            span.sr-only (current)
+                            span.sr-only
                         li.nav-item
-                            a.nav-link(href="#") Link
+                            a.nav-link(data-toggle="tab", href="#projects", role="tab", aria-controls="profile", aria-selected="false")
+                                | Projects 
+                            span.sr-only 
                         li.nav-item
-                            a.nav-link.disabled(href="#") Disabled
+                            a.nav-link(data-toggle="tab", href="#contact", role="tab", aria-controls="profile", aria-selected="false")
+                                | Contact 
+                            span.sr-only 
                     ul.navbar-nav.ml-auto
                         li.nav-item.dropdown
                             if i18n.language === "sv"
@@ -46,6 +50,11 @@ html
                                     a.dropdown-item(href="?lng=sv")
                                         span.flag-icon.flag-icon-se 
                                         |   Svenska
+
+            .tab-content
+                #home.tab-pane.container.active.fade.show HOME PANE
+                #projects.tab-pane.container.fade PROJECTS PANE
+                #contact.tab-pane.container.fade CONTACT PANE
 
         // Bootstrap core JavaScript
         // Placed at the end of the document so the pages load faster
