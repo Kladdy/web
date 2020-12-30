@@ -1,4 +1,10 @@
 {
+    "tabs": {
+        "about_me": "About me",
+        "projects": "Projects",
+        "cv": "CV",
+        "contact": "Contact"
+    },
     "index": {
         "selected_language": "English",
         "submitText": "Submit",

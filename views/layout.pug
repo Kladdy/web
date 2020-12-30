@@ -15,22 +15,26 @@ html
     body
         .container
             nav.navbar.navbar-expand-lg.navbar-light.bg-light.rounded
-                span.navbar-brand(href="#home") Sigfrid Stjärnholm
+                span.navbar-brand Sigfrid Stjärnholm
                 button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation")
                     span.navbar-toggler-icon
                 #navbarsExample09.collapse.navbar-collapse
                     ul.nav.nav-pills.mr-auto
                         li.nav-item
-                            a.nav-link.active(data-toggle="tab", href="#home", role="tab", aria-controls="profile", aria-selected="false")
-                                | Home 
+                            a.nav-link.active(data-toggle="tab", href="#about", role="tab", aria-controls="profile", aria-selected="false")
+                                | #{t("tabs.about_me")} 
                             span.sr-only
                         li.nav-item
                             a.nav-link(data-toggle="tab", href="#projects", role="tab", aria-controls="profile", aria-selected="false")
-                                | Projects 
+                                | #{t("tabs.projects")}  
+                            span.sr-only 
+                        li.nav-item
+                            a.nav-link(data-toggle="tab", href="#cv", role="tab", aria-controls="profile", aria-selected="false")
+                                | #{t("tabs.cv")}  
                             span.sr-only 
                         li.nav-item
                             a.nav-link(data-toggle="tab", href="#contact", role="tab", aria-controls="profile", aria-selected="false")
-                                | Contact 
+                                | #{t("tabs.contact")}  
                             span.sr-only 
                     ul.navbar-nav.ml-auto
                         li.nav-item.dropdown
@@ -52,8 +56,9 @@ html
                                         |   Svenska
 
             .tab-content
-                #home.tab-pane.container.active.fade.show HOME PANE
+                #about.tab-pane.container.active.fade.show ABOUT PANE
                 #projects.tab-pane.container.fade PROJECTS PANE
+                #cv.tab-pane.container.fade CV
                 #contact.tab-pane.container.fade CONTACT PANE
 
         // Bootstrap core JavaScript

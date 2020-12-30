@@ -1,4 +1,10 @@
 {
+    "tabs": {
+        "about_me": "Om mig",
+        "projects": "Projekt",
+        "cv": "CV",
+        "contact": "Kontakt"
+    },
     "index": {
         "selected_language": "Svenska",
         "submitText": "Skicka",
