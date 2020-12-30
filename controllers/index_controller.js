@@ -5,7 +5,7 @@ const i18next = require('i18next');
 
 class IndexController {
     static get(req, res, next) {
-        res.render('form', { title: 'Sigfrid Stjärnholm' });
+        res.render('layout', { title: 'Sigfrid Stjärnholm' });
     }
 
     // static post(req, res, next) {

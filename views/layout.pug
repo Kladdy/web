@@ -56,17 +56,18 @@ html
                                         |   Svenska
 
             .tab-content
-                #about.tab-pane.container.active.fade.show ABOUT PANE
-                #projects.tab-pane.container.fade PROJECTS PANE
-                #cv.tab-pane.container.fade CV
-                #contact.tab-pane.container.fade CONTACT PANE
+                #about.tab-pane.container.active.fade.show
+                    include about.pug
+                #projects.tab-pane.container.fade 
+                    include projects.pug
+                #cv.tab-pane.container.fade 
+                    include cv.pug
+                #contact.tab-pane.container.fade 
+                    include contact.pug
 
         // Bootstrap core JavaScript
         // Placed at the end of the document so the pages load faster
         script(src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous")
         script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js")
-
-        div.container.listing-reg
-            h1= t("index.selected_language")
 
         block content
