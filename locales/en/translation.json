@@ -9,5 +9,115 @@
         "selected_language": "English",
         "submitText": "Submit",
         "buttonHTML": "<button onClick='window.location.reload();'>$t(buttonText)</button>"
+    },
+    "cv": {
+        "header": {
+            "location": "Uppsala, Sweden",
+            "title": "Physics student"
+        },
+        "summary": {
+            "title": "Career Summary",
+            "body": "As a student at both gymnasial and Univerity level, I have been engaged in varous concils related to my studies. Working as a software consultant alongside my studies have yielded me great experience in how projects develop and has also allowed me to test the waters in a large variety of programming paradigms."
+        },
+        "skills": {
+            "software": "Software",
+            "hardware": "Hardware",
+            "computerassembly": "Computer assmbling"
+        },
+        "work": {
+            "title": "Work experience",
+            "jolix": {
+                "title": "Software consulting",
+                "location": "Jolix AB",
+                "projects": {
+                    "title": "Projects",
+                    "tt": "Backend development of a checkout system for organizations using C#, Node.js & microservices",
+                    "mh": "Backend development of a message listener for IoT-devices reporting back to a central hub using Node.js",
+                    "storm": "Integrating customers to a Storm API in C#"
+                },
+                "technologies": {
+                    "title": "Technologies used",
+                    "testdrivendevelopment": "Test-driven development"
+                },
+                "body": "Jolix is an IT consulting company specializing in E-commerce applications. At Jolix, I have worked on plenty of projects within varying programming environments. The company also runs a small electronics store in Boden named pålyset.se, in which I have worked as a clerk."
+            }
+        },
+        "edu": {
+            "title": "Education",
+            "bjorknas": {
+                "title": "Gymnasium ",
+                "programme": "(Natural sciences' programme)",
+                "location": "Björknäsgymnasiet",
+                "achievements": {
+                    "title": "Achievements",
+                    "programmeadvisoryboard": "Chairman in the Programme Advisory Board for the Natural sciences' programme",
+                    "studentcouncil": "Chairman in the Student Council for Björknäsgymnasiet", 
+                    "naturprize": "Scholarship from the Natural sciences' programme for distinctive performance",
+                    "cern": "Attendee of a two-week long internship at CERN (HSSIP)",
+                    "wallenberg": "Finalist in Wallenbergs fysikpris (Swedish national physics competition) and competitor in the Nordic-Baltic Physics Olympiad (NBPhO)"
+                },
+                "body": "A three-year programme at Björknäsgymnasiet involving the Natural sciences'."
+            },
+            "bachelor": {
+                "title": "Bachelor's degree ",
+                "programme": "(Bachelor's Programme in Physics)",
+                "location": "Uppsala University",
+                "courses": {
+                    "title": "Selection of courses",
+                    "analyticalmechanics": "Analytical Mechanics",
+                    "complexanalysis": "Complex Analysis",
+                    "computerprogrammingi": "Computer Programming I",
+                    "condensedmatterphysics": "Condensed Matter Physics",
+                    "electromagneticfieldtheory": "Electromagnetic Field Theory",
+                    "electromagnetism": "Electromagnetism",
+                    "elementaryparticlephysics": "Elementary Particle Physics",
+                    "fourieranalysis": "Fourier Analysis",
+                    "geometryandcalculus": "Geometry and Calculus I, II & III",
+                    "linearalgebraii": "Linear Algebra II",
+                    "mathematicalmethodsofphysics": "Mathematical Methods of Physics",
+                    "mathematicalstatisticskf": "Mathematical Statistics KF",
+                    "mechanics": "Mechanics KF & III",
+                    "medicalphysicsorientation": "Medical Physics",
+                    "nuclearphysics": "Nuclear Physics",
+                    "ordinarydifferentialequationsi": "Ordinary Differential Equations I",
+                    "physicsproject": "Physics Project I & II",
+                    "physicsprojectwitharesearchbasis": "Physics Project with a Research Basis",
+                    "physicsandfinance": "Physics and Finance",
+                    "quantummechanics": "Quantum Mechanics",
+                    "quantumphysics": "Quantum Physics",
+                    "scientificcomputing": "Scientific Computing KF & II",
+                    "specialrelativity": "Special Relativity",
+                    "statisticalmechanics": "Statistical Mechanics",
+                    "thermodynamics": "Thermodynamics",
+                    "wavesandoptics": "Waves and Optics"
+                },
+                "achievements": {
+                    "title": "Achievements",
+                    "programmeadvisoryboard": "Student representative in the Programme Advisory Board for the Bachelor's Programme in Physics",
+                    "studentfacultycouncil": "Vice Chairman in the Student Faculty Council for Physics students", 
+                    "mathprizes": "Recipient of three prices from the Mathematical Society at Uppsala University for distinctive performance in the courses Geometry and Calculus I, Geometry and Calculus III, and Fourier Analysis"
+                },
+                "body": "A three-year programme at Uppsala University covering a large portion the fundamental physics - from classical mechanics to advanced quantum physics. The programme also involves plenty of rigour in mathematics and a lot of programming."
+            }
+        },
+        "present": "Present",
+        "downloadaspdf": "Download this CV as .pdf",
+        "hobbies": {
+            "title": "Hobbies",
+            "hiking": "Mountain hiking",
+            "bread": "Bread baking",
+            "skiing": "Skiing",
+            "cycling": "Cycling",
+            "hardware": "Computer hardware"
+
+        },
+        "interests": {
+            "title": "Interests",
+            "particle": "Particle physics",
+            "nuclear": "Nuclear physics",
+            "simulations": "Simulations",
+            "experiments": "Experiments",
+            "opensource": "Open-source"
+        }
     }
 }

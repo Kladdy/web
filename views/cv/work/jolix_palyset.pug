@@ -1,0 +1,49 @@
+article.resume-timeline-item.position-relative
+    .resume-timeline-item-header.mb-2
+        .d-flex.flex-column.flex-md-row
+            h3.resume-position-title.font-weight-bold.mb-1 
+                = t("cv.work.jolix.title")
+            .resume-company-name.ml-auto= t("cv.work.jolix.location")
+        // //row
+        .resume-position-time 2016 - 
+            = t("cv.present")
+    // //resume-timeline-item-header
+    .resume-timeline-item-desc
+        p= t("cv.work.jolix.body")
+        h4.resume-timeline-item-desc-heading.font-weight-bold= t("cv.work.jolix.projects.title")
+            |:
+        ul
+            li= t("cv.work.jolix.projects.tt")
+            li= t("cv.work.jolix.projects.mh")
+            li= t("cv.work.jolix.projects.storm")
+        h4.resume-timeline-item-desc-heading.font-weight-bold= t("cv.work.jolix.technologies.title")
+            |:
+        ul.list-inline
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill!= ".NET (4.5 & Core)"
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill Python
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill Node.js
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill C#
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill HTML
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill CSS
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill Javascript
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill Typescript
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill Git
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill JSON
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill CI/CD
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill= t("cv.work.jolix.technologies.testdrivendevelopment")
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill Unit testing
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill Microservices

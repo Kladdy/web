@@ -1,0 +1,20 @@
+article.resume-timeline-item.position-relative
+    .resume-timeline-item-header.mb-2
+        .d-flex.flex-column.flex-md-row
+            h3.resume-position-title.font-weight-bold.mb-1 
+                = t("cv.edu.bjorknas.title")
+                small.text-muted= t("cv.edu.bjorknas.programme")
+            .resume-company-name.ml-auto= t("cv.edu.bjorknas.location")
+        // //row
+        .resume-position-time 2015 - 2018
+    // //resume-timeline-item-header
+    .resume-timeline-item-desc
+        p= t("cv.edu.bjorknas.body")
+        h4.resume-timeline-item-desc-heading.font-weight-bold= t("cv.edu.bjorknas.achievements.title")
+            |:
+        ul
+            li= t("cv.edu.bjorknas.achievements.programmeadvisoryboard")
+            li= t("cv.edu.bjorknas.achievements.studentcouncil")
+            li= t("cv.edu.bjorknas.achievements.naturprize")
+            li= t("cv.edu.bjorknas.achievements.cern")
+            li= t("cv.edu.bjorknas.achievements.wallenberg")

@@ -1,1 +1,150 @@
-h3 cv
+
+head
+    // Google Font
+    link(href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900' rel='stylesheet')
+    // FontAwesome JS
+    script(defer='' src='/fontawesome/js/all.min.js')
+    // Theme CSS
+    link#theme-style(rel='stylesheet' href='/css/pillar-2.css')
+
+body
+    article.resume-wrapper.text-center.position-relative
+        .resume-wrapper-inner.mx-auto.text-left.bg-white.shadow-lg
+            header.resume-header.pt-4.pt-md-0
+                .media.flex-column.flex-md-row
+                    img.mr-3.img-fluid.picture.mx-auto(src='/images/profile.jpg' alt='')
+                    .media-body.p-4.d-flex.flex-column.flex-md-row.mx-auto.mx-lg-0
+                        .primary-info
+                            h1.name.mt-0.mb-1.text-white.text-uppercase.text-uppercase Sigfrid Stjärnholm
+                            .title.mb-3= t("cv.header.title")
+                            ul.list-unstyled
+                                li.mb-2
+                                    i.fas.fa-home.fa-fw.mr-2(data-fa-transform='grow-3')
+                                    = t("cv.header.location")
+                                li.mb-2
+                                    a(href='mailto:sigge.stjarnholm@gmail.com')
+                                        i.far.fa-envelope.fa-fw.mr-2(data-fa-transform='grow-3')
+                                        | sigge.stjarnholm@gmail.com
+                        // //primary-info
+                        .secondary-info.ml-md-auto.mt-2
+                            ul.resume-social.list-unstyled
+                                li.mb-3
+                                    a(href='https://www.linkedin.com/in/ssigfrid/', target="_blank")
+                                        span.fa-container.text-center.mr-2
+                                            i.fab.fa-linkedin-in.fa-fw
+                                        | linkedin.com/in/ssigfrid
+                                li.mb-3
+                                    a(href='https://www.github.com/kladdy', target="_blank")
+                                        span.fa-container.text-center.mr-2
+                                            i.fab.fa-github-alt.fa-fw
+                                        | github.com/kladdy
+                                li
+                                    a(href='https://www.sigfrid.me', target="_blank")
+                                        span.fa-container.text-center.mr-2
+                                            i.fas.fa-globe
+                                        | sigfrid.me
+                        // //secondary-info
+                        // //media-body
+                        // //media
+            .resume-body.p-5
+                section.resume-section.summary-section.mb-5
+                    h2.resume-section-title.text-uppercase.font-weight-bold.pb-3.mb-3= t("cv.summary.title")
+                    .resume-section-content
+                        p.mb-0
+                            = t("cv.summary.body")
+                // //summary-section
+                .row
+                    .col-lg-9
+                        section.resume-section.experience-section.mb-5
+                            h2.resume-section-title.text-uppercase.font-weight-bold.pb-3.mb-3= t("cv.edu.title")
+                            .resume-section-content
+                                .resume-timeline.position-relative
+                                    include cv/edu/bachelor.pug
+                                    include cv/edu/bjorknas.pug
+                                    
+                        section.resume-section.experience-section.mb-5
+                            h2.resume-section-title.text-uppercase.font-weight-bold.pb-3.mb-3= t("cv.work.title")
+                            .resume-section-content
+                                .resume-timeline.position-relative
+                                    include cv/work/jolix_palyset.pug
+
+                    .col-lg-3
+                        section.resume-section.hobbies-section.mb-5
+                            h2.resume-section-title.text-uppercase.font-weight-bold.pb-3.mb-3= t("cv.interests.title")
+                            .resume-section-content
+                                include cv/interests.pug
+                                // //interestas-section
+
+                        section.resume-section.skills-section.mb-5
+                            h2.resume-section-title.text-uppercase.font-weight-bold.pb-3.mb-3 Skills & Tools
+                            .resume-section-content
+                                include cv/skills.pug
+
+                        // //resume-skill-item
+                        // resume-section-content
+                        // //skills-section
+                        //- section.resume-section.education-section.mb-5
+                        //-     h2.resume-section-title.text-uppercase.font-weight-bold.pb-3.mb-3 Education
+                        //-     .resume-section-content
+                        //-         ul.list-unstyled
+                        //-             li.mb-2
+                        //-                 .resume-degree.font-weight-bold MSc in Computer Science
+                        //-                 .resume-degree-org University College London
+                        //-                 .resume-degree-time 2010 - 2011
+                        //-             li
+                        //-                 .resume-degree.font-weight-bold BSc Maths and Physics
+                        //-                 .resume-degree-org Imperial College London
+                        //-                 .resume-degree-time 2007 - 2010
+                        // //education-section
+                        //- section.resume-section.reference-section.mb-5
+                        //-     h2.resume-section-title.text-uppercase.font-weight-bold.pb-3.mb-3 Awards
+                        //-     .resume-section-content
+                        //-         ul.list-unstyled.resume-awards-list
+                        //-             li.mb-2.pl-4.position-relative
+                        //-                 i.resume-award-icon.fas.fa-trophy.position-absolute(data-fa-transform='shrink-2')
+                        //-                 .resume-award-name Award Name Lorem
+                        //-                 .resume-award-desc
+                        //-                     | Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
+                        //-             li.mb-0.pl-4.position-relative
+                        //-                 i.resume-award-icon.fas.fa-trophy.position-absolute(data-fa-transform='shrink-2')
+                        //-                 .resume-award-name Award Name Ipsum
+                        //-                 .resume-award-desc Award desc goes here, ultricies nec, pellentesque.
+                        // //interests-section
+                        //- section.resume-section.language-section.mb-5
+                        //-     h2.resume-section-title.text-uppercase.font-weight-bold.pb-3.mb-3 Language
+                        //-     .resume-section-content
+                        //-         ul.list-unstyled.resume-lang-list
+                        //-             li.mb-2
+                        //-                 span.resume-lang-name.font-weight-bold Swe 
+                        //-                 small.text-muted.font-weight-normal (Native)
+                        //-             li.mb-2.align-middle
+                        //-                 span.resume-lang-name.font-weight-bold French 
+                        //-                 small.text-muted.font-weight-normal (Professional)
+                        //-             li
+                        //-                 span.resume-lang-name.font-weight-bold Spanish 
+                        //-                 small.text-muted.font-weight-normal (Professional)
+                        // //language-section
+                            
+                        section.resume-section.hobbies-section.mb-5
+                            h2.resume-section-title.text-uppercase.font-weight-bold.pb-3.mb-3= t("cv.hobbies.title")
+                            .resume-section-content
+                                include cv/hobbies.pug
+                            // //hobbies-section
+                            // //row
+                            // //resume-body
+    footer.footer.text-center.pt-2.pb-5
+        // /* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */
+        
+        
+        p
+            a(href='#')
+                = t("cv.downloadaspdf")
+                i.fas.far-file-pdf
+
+        p                           
+            small.copyright
+                | Designed with 
+                i.fas.fa-heart
+                |  by 
+                a(href='http://themes.3rdwavemedia.com' target='_blank') Xiaoying Riley
+                |  for developers
