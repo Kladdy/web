@@ -9,5 +9,114 @@
         "selected_language": "Svenska",
         "submitText": "Skicka",
         "buttonHTML": "<button onClick='window.location.reload();'>$t(buttonText)</button>"
+    },
+    "cv": {
+        "edu": {
+            "bachelor": {
+                "achievements": {
+                    "mathprizes": "Mottagare av tre priser från Matematiska föreningen på Uppsala universitet för utmärkta resultat på kurserna Geometri och analys I, Geometri och analys III samt Fourieranalys.",
+                    "programmeadvisoryboard": "Studentrepresentant i Programrådet för Kandidatprogrammet i Fysik",
+                    "studentfacultycouncil": "Viceordförande i Studierådet för Fysikstudenter",
+                    "title": "Prestationer"
+                },
+                "body": "Ett treårigt programm på Uppsala universitet som täcker en stor del av den fundamentala fysiken - allt från klassisk mekanik till avancerad kvantfysik. Programmet innehåller även en rigorös bakgrund inom matematiken, och en hel del programmering.",
+                "courses": {
+                    "analyticalmechanics": "Analytisk mekanik",
+                    "complexanalysis": "Komplex analys",
+                    "computerprogrammingi": "Programmeringsteknik I",
+                    "condensedmatterphysics": "Kondenserade materiens fysik",
+                    "electromagneticfieldtheory": "Elektromagnetisk fältteori",
+                    "electromagnetism": "Elektromagnetism",
+                    "elementaryparticlephysics": "Partikelfysik",
+                    "fourieranalysis": "Fourieranalys",
+                    "geometryandcalculus": "Geometri och analys I, II & III",
+                    "linearalgebraii": "Linjär algebra II",
+                    "mathematicalmethodsofphysics": "Fysikens matematiska metoder",
+                    "mathematicalstatisticskf": "Matematisk statistik KF",
+                    "mechanics": "Mekanik KF & III",
+                    "medicalphysicsorientation": "Medicinsk fysik",
+                    "nuclearphysics": "Kärnfysik",
+                    "ordinarydifferentialequationsi": "Ordinära differentialekvationer I",
+                    "physicsandfinance": "Fysik och finans",
+                    "physicsproject": "Fysikprojekt I & II",
+                    "physicsprojectwitharesearchbasis": "Fysikprojekt med forskningsanknytning",
+                    "quantummechanics": "Kvantmekanik",
+                    "quantumphysics": "Kvantfysik",
+                    "scientificcomputing": "Beräkningsvetenskap KF & II",
+                    "specialrelativity": "Speciell relativitetsteori",
+                    "statisticalmechanics": "Statistisk mekanik",
+                    "thermodynamics": "Termodynamik",
+                    "title": "Urval av kurser",
+                    "wavesandoptics": "Vågor och optik"
+                },
+                "location": "Uppsala universitet",
+                "programme": "(Kandidatprogrammet i Fysik)",
+                "title": "Kandidatexamen"
+            },
+            "bjorknas": {
+                "achievements": {
+                    "cern": "Deltagare i en två veckor lång praktik på CERN (HSSIP)",
+                    "naturprize": "Stipendie från det Naturvetenskapliga programmet för utmärkande prestationer",
+                    "programmeadvisoryboard": "Ordförande i Programrådet för det Naturvetenskapliga programmet",
+                    "studentcouncil": "Ordförande i Björknäsgymnasiets elevråd",
+                    "title": "Prestationer",
+                    "wallenberg": "Finalist i Wallenbergs fysikpris och tävlande i Nordisk-Baltiska Fysikolympiaden (NBPhO)"
+                },
+                "body": "Ett treårigt program på Björknäsgymnasiet som innehåller de naturvetenskaplika ämnena.",
+                "location": "Björknäsgymnasiet",
+                "programme": "(Naturvetenskapliga programmet)",
+                "title": "Gymnasium"
+            },
+            "title": "Utbildning"
+        },
+        "header": {
+            "location": "Uppsala, Sverige",
+            "title": "Fysikstudent"
+        },
+        "hobbies": {
+            "bread": "Brödbakning",
+            "cycling": "Cykling",
+            "hardware": "Datorhårdvara",
+            "hiking": "Fjällvandring",
+            "skiing": "Skidåkning",
+            "title": "Hobbyer"
+        },
+        "interests": {
+            "experiments": "Experiment",
+            "nuclear": "Kärnfysik",
+            "opensource": "Öppen källkod",
+            "particle": "Partikelfysik",
+            "simulations": "Simuleringar",
+            "title": "Intressen"
+        },
+        "present": "Nutid",
+        "skills": {
+            "computerassembly": "Datorbyggande",
+            "hardware": "Hårdvara",
+            "software": "Mjukvara",
+            "title": "Kompetens & verktyg"
+        },
+        "summary": {
+            "body": "Som studerande på både gymnasial- och universitetsnivå har jag varit engagerad en mängd olika program- och elevråd. Att ha jobbat som mjukvarukonsult vid sidan om mina studier har givit mig stor erfarenhet för hur projekt utvecklas och har även gett mig möjligheten att lära mig många olika programmeringsfilosofier.",
+            "title": "Karriärsammanfattning"
+        },
+        "work": {
+            "jolix": {
+                "body": "Jolix är ett IT-konsultbolag som inriktar sig på E-handel. På Jolix har jag arbetat med många olika projekt inom mängder av programmeringsmiljöer. Företaget äger även en liten elektronikbutik i Boden vid namn pålyset.se, där jag har arbetat som butiksbiträde.",
+                "location": "Jolix AB",
+                "projects": {
+                    "mh": "Backend-utveckling av en meddelande-lyssnare för IoT-enheter som rapporterar till en central server med hjälp av Node.js",
+                    "storm": "Integrera kunder till en Storm API i C#",
+                    "title": "Projekt",
+                    "tt": "Backend-utveckling av ett kassasystem för föreningar med hjälp av C#, Node.js & microservices"
+                },
+                "technologies": {
+                    "testdrivendevelopment": "Test-driven utveckling",
+                    "title": "Teknologier"
+                },
+                "title": "Mjukvarukonsult"
+            },
+            "title": "Arbetserfarenhet"
+        }
     }
 }
