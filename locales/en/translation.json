@@ -46,7 +46,7 @@
         "edu": {
             "title": "Education",
             "bjorknas": {
-                "title": "Gymnasium ",
+                "title": "Gymnasium",
                 "programme": "(Natural sciences' programme)",
                 "location": "Björknäsgymnasiet",
                 "achievements": {
@@ -60,7 +60,7 @@
                 "body": "A three-year programme at Björknäsgymnasiet involving the Natural sciences'."
             },
             "bachelor": {
-                "title": "Bachelor's degree ",
+                "title": "Bachelor's degree",
                 "programme": "(Bachelor's Programme in Physics)",
                 "location": "Uppsala University",
                 "courses": {
