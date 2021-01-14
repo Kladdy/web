@@ -19,7 +19,7 @@
                     "studentfacultycouncil": "Viceordförande i Studierådet för Fysikstudenter",
                     "title": "Prestationer"
                 },
-                "body": "Ett treårigt programm på Uppsala universitet som täcker en stor del av den fundamentala fysiken - allt från klassisk mekanik till avancerad kvantfysik. Programmet innehåller även en rigorös bakgrund inom matematiken, och en hel del programmering.",
+                "body": "Ett treårigt program på Uppsala universitet som täcker en stor del av den fundamentala fysiken - allt från klassisk mekanik till avancerad kvantfysik. Programmet innehåller även en rigorös bakgrund inom matematiken, och en hel del programmering.",
                 "courses": {
                     "analyticalmechanics": "Analytisk mekanik",
                     "complexanalysis": "Komplex analys",
@@ -94,6 +94,7 @@
             "computerassembly": "Datorbyggande",
             "hardware": "Hårdvara",
             "software": "Mjukvara",
+            "circuits": "Kretsar",
             "title": "Kompetens & verktyg"
         },
         "summary": {
