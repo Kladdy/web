@@ -1,14 +1,18 @@
 {
   "name": "sigges_web",
   "version": "1.0.0",
-  "description": "",
+  "description": "My personal website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "PORT=3000 URL=http://localhost:3000 nodemon ./start.js "
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Kladdy/web"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Sigfrid Stjärnholm",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
