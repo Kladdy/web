@@ -58,3 +58,20 @@ body {
 .listing-table th:first-child {
   border-right: 1px solid #666;
 }
+
+.rounded-img {
+  border-radius: 50%;
+}
+
+.centered-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.margin-top {
+  margin-top: 2cm;
+}
+.spacing-pre-emoji {
+  display: inline-block; 
+  width: 10px;
+}

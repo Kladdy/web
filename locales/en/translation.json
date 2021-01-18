@@ -10,6 +10,13 @@
         "submitText": "Submit",
         "buttonHTML": "<button onClick='window.location.reload();'>$t(buttonText)</button>"
     },
+    "about": {
+        "hi1": "Hi!",
+        "hi2": "Hello!",
+        "hi3": "Greetings!",
+        "hi4": "Howdy!",
+        "hi5": "Welcome!"
+    },
     "cv": {
         "header": {
             "location": "Uppsala, Sweden",
