@@ -15,26 +15,26 @@ html
 
     body
         .container
-            nav.navbar.navbar-expand-lg.navbar-light.bg-light.rounded
+            nav.navbar.navbar-expand-lg.navbar-light.bg-light.rounded(role='tablist')
                 span.navbar-brand Sigfrid Stjärnholm
                 button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation")
                     span.navbar-toggler-icon
                 #navbarsExample09.collapse.navbar-collapse
-                    ul.nav.nav-pills.mr-auto
+                    ul#myTab.nav.nav-pills.mr-auto
                         li.nav-item
-                            a.nav-link.active(data-toggle="tab", href="#about", role="tab", aria-controls="profile", aria-selected="false")
+                            a.nav-link.active(data-toggle="tab", href="#about", role="tab", aria-controls="profile", aria-selected="true")
                                 | #{t("tabs.about_me")} 
                             span.sr-only
                         li.nav-item
-                            a.nav-link(data-toggle="tab", href="#projects", role="tab", aria-controls="profile", aria-selected="false")
+                            a.nav-link(data-toggle="tab", href="#projects", role="tab", aria-controls="projects", aria-selected="false")
                                 | #{t("tabs.projects")}  
                             span.sr-only 
                         li.nav-item
-                            a.nav-link(data-toggle="tab", href="#cv", role="tab", aria-controls="profile", aria-selected="false")
+                            a.nav-link(data-toggle="tab", href="#cv", role="tab", aria-controls="cv", aria-selected="false")
                                 | #{t("tabs.cv")}  
                             span.sr-only 
                         li.nav-item
-                            a.nav-link(data-toggle="tab", href="#contact", role="tab", aria-controls="profile", aria-selected="false")
+                            a.nav-link(data-toggle="tab", href="#contact", role="tab", aria-controls="contact", aria-selected="false")
                                 | #{t("tabs.contact")}  
                             span.sr-only 
                     ul.navbar-nav.ml-auto
@@ -56,14 +56,14 @@ html
                                         span.flag-icon.flag-icon-se 
                                         |   Svenska
 
-            .tab-content
-                #about.tab-pane.container.active.fade.show
+            #myTabContent.tab-content
+                #about.tab-pane.container.fade.show.active(role='tabpanel' aria-labelledby='about-tab')
                     include about.pug
-                #projects.tab-pane.container.fade 
+                #projects.tab-pane.container.fade(role='tabpanel' aria-labelledby='projects-tab')
                     include projects.pug
-                #cv.tab-pane.container.fade 
+                #cv.tab-pane.container.fade(role='tabpanel' aria-labelledby='cv-tab')
                     include cv.pug
-                #contact.tab-pane.container.fade 
+                #contact.tab-pane.container.fade(role='tabpanel' aria-labelledby='contact-tab')
                     include contact.pug
 
         // Bootstrap core JavaScript
