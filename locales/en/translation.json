@@ -63,7 +63,9 @@
                     "studentcouncil": "Chairman in the Student Council for Björknäsgymnasiet",
                     "naturprize": "Scholarship from the Natural sciences' programme for distinctive performance",
                     "cern": "Attendee of a two-week long internship at CERN (HSSIP)",
-                    "wallenberg": "Finalist in Wallenbergs fysikpris (Swedish national physics competition) and competitor in the Nordic-Baltic Physics Olympiad (NBPhO)"
+                    "wallenberg": "Finalist in Wallenbergs fysikpris (Swedish national physics competition) and competitor in the Nordic-Baltic Physics Olympiad (NBPhO)",
+                    "berzelius": "Attendee of Berzeliusdagarna, a weekend-seminar for students interested in chemistry",
+                    "rfs": "Attendee of Rymdforskarskolan, a 2-week programme at Esrange space center"
                 },
                 "body": "A three-year programme at Björknäsgymnasiet involving the Natural sciences'."
             },
