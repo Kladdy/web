@@ -128,5 +128,16 @@
             "experiments": "Experiments",
             "opensource": "Open-source"
         }
+    },
+    "contact": {
+        "card":{
+            "location": "Uppsala, Sweden",
+            "title": "Physics student",
+            "contact": "Contact"
+        }
+            
+    },
+    "projects": {
+
     }
 }

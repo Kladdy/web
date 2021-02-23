@@ -128,5 +128,12 @@
         "hi3": "Tjena!",
         "hi4": "Goddagens!",
         "hi5": "Morsning!"
+    },
+    "contact": {
+        "card": {
+            "contact": "Kontakta",
+            "location": "Uppsala, Sverige",
+            "title": "Fysikstudent"
+        }
     }
 }

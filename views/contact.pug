@@ -1,1 +1,22 @@
-h3.center-text.margin-top Under construction... &#x1F3D7;
+head 
+    link(rel='stylesheet', href='/css/contact_card.css')
+body
+    // h3.center-text.margin-top Under construction... &#x1F3D7;
+    .card
+        img(src="/images/profile2.png", alt="Sigfrid Stjärnholm", style='width:100%')
+        h2.name-contact-card Sigfrid Stjärnholm
+        p.title-contact-card= t("contact.card.title")
+        p= t("contact.card.location")
+        
+        p
+            a(href='https://www.linkedin.com/in/ssigfrid/', target="_blank", title="LinkedIn")
+                i.a-card-title.fab.fa-linkedin-in.fa-fw
+            = ""
+            a(href='https://www.github.com/kladdy', target="_blank", title="GitHub")
+                i.a-card-title.fab.fa-github-alt.fa-fw
+            = " "
+            a(href='https://www.sigfrid.me', target="_blank", title="sigfrid.me")
+                i.a-card-title.fas.fa-globe
+
+        a(href='mailto:sigge.stjarnholm@gmail.com')
+            p.button-card-card= t("contact.card.contact")
