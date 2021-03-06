@@ -49,6 +49,16 @@
                     "testdrivendevelopment": "Test-driven development"
                 },
                 "body": "Jolix is an IT consulting company specializing in E-commerce applications. At Jolix, I have worked on plenty of projects within varying programming environments. The company also runs a small electronics store in Boden named pålyset.se, in which I have worked as a clerk."
+            },
+            "lm": {
+                "title": "Event organizer",
+                "location": "Lise Meitner-dagarna",
+                "roles": {
+                    "title": "Roles",
+                    "admin": "Head of administration (2019 - 2020): Bookings for hotel, catering, and trips for the whole event. Managing registrations for schools, students, and exhibitors. ",
+                    "communication": "Head of communication and marketing (2021 - Present): Designs for mailings. Communication with schools and students. Upkeep of the website. Photography and social media."
+                },
+                "body": "Lise Meitner-dagarna is a yearly weekend-seminar in Stockholm for high-school students interested in physics. During three intensive days, the students get to partake in laboratory experiments, exhibitions and lectures by prominent physicists in a variety of fields. The organizing group consists of 4 members, and about 130 students from all over Sweden attend."
             }
         },
         "edu": {

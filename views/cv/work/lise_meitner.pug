@@ -1,0 +1,17 @@
+article.resume-timeline-item.position-relative
+    .resume-timeline-item-header.mb-2
+        .d-flex.flex-column.flex-md-row
+            h3.resume-position-title.font-weight-bold.mb-1 
+                = t("cv.work.lm.title")
+            .resume-company-name.ml-auto= t("cv.work.lm.location")
+        // //row
+        .resume-position-time 2019 - 
+            = t("cv.present")
+    // //resume-timeline-item-header
+    .resume-timeline-item-desc
+        p= t("cv.work.lm.body")
+        h4.resume-timeline-item-desc-heading.font-weight-bold= t("cv.work.lm.roles.title")
+            |:
+        ul
+            li= t("cv.work.lm.roles.admin")
+            li= t("cv.work.lm.roles.communication")

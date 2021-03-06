@@ -105,7 +105,7 @@
         },
         "work": {
             "jolix": {
-                "body": "Jolix är ett IT-konsultbolag som inriktar sig på E-handel. På Jolix har jag arbetat med många olika projekt inom mängder av programmeringsmiljöer. Företaget äger även en liten elektronikbutik i Boden vid namn pålyset.se, där jag har arbetat som butiksbiträde.",
+                "body": "Jolix är ett IT-konsultbolag som inriktar sig på E-handel. På Jolix har jag arbetat med många olika projekt inom mängder av programmeringsmiljöer. Företaget driver även en liten elektronikbutik i Boden vid namnet pålyset.se, där jag har arbetat som butiksbiträde.",
                 "location": "Jolix AB",
                 "projects": {
                     "mh": "Backend-utveckling av en meddelande-lyssnare för IoT-enheter som rapporterar till en central server med hjälp av Node.js",
@@ -119,7 +119,17 @@
                 },
                 "title": "Mjukvarukonsult"
             },
-            "title": "Arbetserfarenhet"
+            "title": "Arbetserfarenhet",
+            "lm": {
+                "body": "Lise Meitner-dagarna är ett årligen återkommande evenemang i Stockholm för fysikintresserade gymnasister. Under tre intensiva dagar får eleverna delta i laborationer, utställningar och föreläsningar av framstående fysiker i varierande fält. Arrangörsgruppen består av 4 medlemmar, och ungefär 130 elever från hela landet deltar varje år.",
+                "location": "Lise Meitner-dagarna",
+                "roles": {
+                    "title": "Roller",
+                    "admin": "Administrationsansvarig (2019 - 2020): Bokningar för hotell, catering och resor för hela evenemanget. Hantering av anmälan för skolor, studenter och utställare. ",
+                    "communication": "Kommunikations- och marknadsföringsansvarig (2021 - Nutid): Design för mailutskick. Kommunikation med skolor och elever. Underhåll av hemsidan. Fotografering och sociala medier."
+                },
+                "title": "Evenemangsarrangör"
+            }
         }
     },
     "about": {
