@@ -133,6 +133,7 @@
         "interests": {
             "title": "Interests",
             "particle": "Particle physics",
+            "quantum": "Quantum physics",
             "nuclear": "Nuclear physics",
             "simulations": "Simulations",
             "experiments": "Experiments",
