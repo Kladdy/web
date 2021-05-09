@@ -131,6 +131,11 @@
                 },
                 "title": "Evenemangsarrangör"
             }
+        },
+        "engagements": {
+            "bannercarrier": "Fanbärare för Norrlands nation",
+            "hp": "Provledare på Högskoleprovet",
+            "title": "Engagemang"
         }
     },
     "about": {

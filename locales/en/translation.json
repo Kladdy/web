@@ -138,6 +138,11 @@
             "simulations": "Simulations",
             "experiments": "Experiments",
             "opensource": "Open-source"
+        },
+        "engagements": {
+            "title": "Engagements",
+            "bannercarrier": "Banner carrier for Norrland's nation (Student association in Uppsala)",
+            "hp": "Test supervisor at the Swedish Scholastic Aptitude Test (Högskoleprovet, SweSAT)"
         }
     },
     "contact": {
