@@ -7,6 +7,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 
 const IndexRoutes = require('./routes/index');
+const ProjectsRoutes = require('./routes/projects');
 
 const app = express();
 
@@ -42,6 +43,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use('/', IndexRoutes);
+app.use('/projects', ProjectsRoutes);
 
 app.use(express.static('public'));
 

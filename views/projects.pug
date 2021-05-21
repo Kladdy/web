@@ -1,1 +1,14 @@
-h3.center-text.margin-top Under construction... &#x1F3D7;
+head 
+    link(rel='stylesheet', href='/css/contact_card.css')
+body
+    // h3.center-text.margin-top Under construction... &#x1F3D7;
+    .card
+        img(src="/images/projects/bachelor/logo1.jpeg", alt="neutrino-dnn", style='width:100%')
+        h2.name-contact-card= t("projects.bachelor.name")
+        p.title-contact-card= t("projects.bachelor.title")
+        
+        p
+            = t("projects.bachelor.description")
+        
+        a(href='./projects/bachelor_project')
+            p.button-card-card= t("projects.bachelor.read_more")

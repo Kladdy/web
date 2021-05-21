@@ -53,21 +53,9 @@ html
                 #navbarsExample09.collapse.navbar-collapse
                     ul#myTab.nav.nav-pills.mr-auto
                         li.nav-item
-                            a.nav-link.active(data-toggle="tab", href="#about", role="tab", aria-controls="profile", aria-selected="true")
-                                | #{t("tabs.about_me")} 
+                            a.nav-link.active(href="../", role="tab", aria-controls="profile", aria-selected="true")
+                                | &#8592; #{t("projects.navbar.back")} 
                             span.sr-only
-                        li.nav-item
-                            a.nav-link(data-toggle="tab", href="#projects", role="tab", aria-controls="projects", aria-selected="false")
-                                | #{t("tabs.projects")}  
-                            span.sr-only 
-                        li.nav-item
-                            a.nav-link(data-toggle="tab", href="#cv", role="tab", aria-controls="cv", aria-selected="false")
-                                | #{t("tabs.cv")}  
-                            span.sr-only 
-                        li.nav-item
-                            a.nav-link(data-toggle="tab", href="#contact", role="tab", aria-controls="contact", aria-selected="false")
-                                | #{t("tabs.contact")}  
-                            span.sr-only 
                     ul.navbar-nav.ml-auto
                         li.nav-item.dropdown
                             if i18n.language === "sv"
@@ -86,16 +74,6 @@ html
                                     a.dropdown-item(href="?lng=sv")
                                         span.flag-icon.flag-icon-se 
                                         |   Svenska
-
-            #myTabContent.tab-content
-                #about.tab-pane.container.fade.show.active(role='tabpanel' aria-labelledby='about-tab')
-                    include about.pug
-                #projects.tab-pane.container.fade(role='tabpanel' aria-labelledby='projects-tab')
-                    include projects.pug
-                #cv.tab-pane.container.fade(role='tabpanel' aria-labelledby='cv-tab')
-                    include cv.pug
-                #contact.tab-pane.container.fade(role='tabpanel' aria-labelledby='contact-tab')
-                    include contact.pug
 
         // Bootstrap core JavaScript
         // Placed at the end of the document so the pages load faster
