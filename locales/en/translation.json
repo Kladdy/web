@@ -18,6 +18,10 @@
         "hi5": "Welcome!"
     },
     "cv": {
+        "download": {
+            "sv": "Download this CV in Swedish as a PDF (last updated 21/5 2021)",
+            "en": "Download this CV in English as a PDF (last updated 21/5 2021)"
+        },
         "header": {
             "location": "Uppsala, Sweden",
             "title": "Physics student"

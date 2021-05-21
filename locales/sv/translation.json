@@ -11,6 +11,10 @@
         "buttonHTML": "<button onClick='window.location.reload();'>$t(buttonText)</button>"
     },
     "cv": {
+        "download": {
+            "sv": "Hämta detta CV på svenska som en PDF (senast uppdaterat 21/5 2021)",
+            "en": "Hämta detta CV på engelska som en PDF (senast uppdaterat 21/5 2021)"
+        },
         "edu": {
             "bachelor": {
                 "achievements": {
