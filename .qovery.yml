@@ -1,0 +1,11 @@
+---
+application:
+  name: "web"
+  project: "sigfrid.me"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-web"
+  routes:
+  - application_name: "web"
+    paths:
+    - "/*"
