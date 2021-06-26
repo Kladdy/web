@@ -4,6 +4,9 @@ application:
   project: "sigfrid.me"
   organization: "QoveryCommunity"
 routers:
+  custom_domains:
+  - branch: master
+    domain: sigfrid.me
 - name: "main-web"
   routes:
   - application_name: "web"
