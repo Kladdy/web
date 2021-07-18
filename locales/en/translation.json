@@ -164,7 +164,7 @@
         "bachelor": {
             "name": "Bachelor Project in Physics",
             "title": "Neural network neutrino direction reconstruction",
-            "description": "In plain English: Where did that particle come from? Let's mimmic a brain to find out!",
+            "description": "In plain English: Where did that particle come from? Let's mimic a brain to find out!",
             "read_more": "Read more..."
         }
     }
