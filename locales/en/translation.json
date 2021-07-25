@@ -5,6 +5,9 @@
         "cv": "CV",
         "contact": "Contact"
     },
+    "general": {
+        "under_construction": "Under construction"
+    },
     "index": {
         "selected_language": "English",
         "submitText": "Submit",

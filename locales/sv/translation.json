@@ -5,6 +5,9 @@
         "cv": "CV",
         "contact": "Kontakt"
     },
+    "general": {
+        "under_construction": "Under konstruktion"
+    },
     "index": {
         "selected_language": "Svenska",
         "submitText": "Skicka",
