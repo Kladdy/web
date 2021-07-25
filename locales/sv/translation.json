@@ -156,4 +156,15 @@
             "title": "Fysikstudent"
         }
     }
+    "projects": {
+        "navbar": {
+            "back": "ENGLISH: Back to homepage"
+        },
+        "bachelor": {
+            "name": "ENGLISH: Bachelor Project in Physics",
+            "title": "ENGLISH: Neural network neutrino direction reconstruction",
+            "description": "ENGLISH: In plain English: Where did that particle come from? Let's mimic a brain to find out!",
+            "read_more": "ENGLISH: Read more..."
+        }
+    }
 }
