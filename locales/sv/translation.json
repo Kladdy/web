@@ -158,13 +158,13 @@
     },
     "projects": {
         "navbar": {
-            "back": "ENGLISH: Back to homepage"
+            "back": "Navigera till startsidan"
         },
         "bachelor": {
-            "name": "ENGLISH: Bachelor Project in Physics",
-            "title": "ENGLISH: Neural network neutrino direction reconstruction",
-            "description": "ENGLISH: In plain English: Where did that particle come from? Let's mimic a brain to find out!",
-            "read_more": "ENGLISH: Read more..."
+            "name": "Kandidatprojekt i fysik",
+            "title": "Rekonstruktion av neutrinoriktning med neurala nätverk",
+            "description": "På ren svenska: Vart kom den där partikeln från? Härma en hjärna för att ta reda på svaret!",
+            "read_more": "Läs mer..."
         }
     }
 }
