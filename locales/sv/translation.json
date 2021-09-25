@@ -71,7 +71,7 @@
                     "berzelius": "Deltagare på Berzeliusdagarna, ett helgseminarium för kemi-intresserade elever",
                     "rfs": "Deltagare på Rymdforskarskolan, ett 2 veckor långt program på rymdbasen Esrange"
                 },
-                "body": "Ett treårigt program på Björknäsgymnasiet som innehåller de naturvetenskaplika ämnena.",
+                "body": "Ett treårigt program på Björknäsgymnasiet som innefattar de naturvetenskaplika ämnena.",
                 "location": "Björknäsgymnasiet",
                 "programme": "(Naturvetenskapliga programmet)",
                 "title": "Gymnasium"
@@ -140,9 +140,10 @@
             }
         },
         "engagements": {
+            "title": "Engagemang",
             "bannercarrier": "Fanbärare för Norrlands nation",
             "hp": "Provledare på Högskoleprovet",
-            "title": "Engagemang"
+            "hometownambassador": "Hemortsambassadör för Uppsala universitet"
         }
     },
     "about": {

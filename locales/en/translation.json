@@ -149,7 +149,8 @@
         "engagements": {
             "title": "Engagements",
             "bannercarrier": "Banner carrier for Norrland's nation (Student association in Uppsala)",
-            "hp": "Test supervisor at the Swedish Scholastic Aptitude Test (Högskoleprovet, SweSAT)"
+            "hp": "Test supervisor at the Swedish Scholastic Aptitude Test (Högskoleprovet, SweSAT)",
+            "hometownambassador": "Hometown ambassador for Uppsala University"
         }
     },
     "contact": {
