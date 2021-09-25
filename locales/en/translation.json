@@ -72,19 +72,19 @@
             "title": "Education",
             "bjorknas": {
                 "title": "Gymnasium",
-                "programme": "(Natural sciences' programme)",
+                "programme": "(Natural Science Programme)",
                 "location": "Björknäsgymnasiet",
                 "achievements": {
                     "title": "Achievements",
-                    "programmeadvisoryboard": "Chairman in the Programme Advisory Board for the Natural sciences' programme",
+                    "programmeadvisoryboard": "Chairman in the Programme Advisory Board for the Natural Science Programme",
                     "studentcouncil": "Chairman in the Student Council for Björknäsgymnasiet",
-                    "naturprize": "Scholarship from the Natural sciences' programme for distinctive performance",
-                    "cern": "Attendee of a two-week long internship at CERN (HSSIP)",
+                    "naturprize": "Scholarship from the Natural Science Programme for distinctive performance",
+                    "cern": "Attendee of a 2-week long internship at CERN (HSSIP)",
                     "wallenberg": "Finalist in Wallenbergs fysikpris (Swedish national physics competition) and competitor in the Nordic-Baltic Physics Olympiad (NBPhO)",
                     "berzelius": "Attendee of Berzeliusdagarna, a weekend-seminar for students interested in chemistry",
                     "rfs": "Attendee of Rymdforskarskolan, a 2-week programme at Esrange space center"
                 },
-                "body": "A three-year programme at Björknäsgymnasiet involving the Natural sciences'."
+                "body": "A three-year programme at Björknäsgymnasiet involving the natural sciences."
             },
             "bachelor": {
                 "title": "Bachelor's degree",
@@ -123,9 +123,27 @@
                     "title": "Achievements",
                     "programmeadvisoryboard": "Student representative in the Programme Advisory Board for the Bachelor's Programme in Physics",
                     "studentfacultycouncil": "Vice Chairman in the Student Faculty Council for Physics students",
-                    "mathprizes": "Recipient of three prices from the Mathematical Society at Uppsala University for distinctive performance in the courses Geometry and Calculus I, Geometry and Calculus III, and Fourier Analysis"
+                    "mathprizes": "Recipient of three prices from the Mathematical Society at Uppsala University for distinctive performance in the courses Geometry and Calculus I, Geometry and Calculus III, and Fourier Analysis",
+                    "melanderhjelms": "Recipient of Melanderhjelm's scholarship from the Faculty of Science and Technology at Uppsala University"
                 },
                 "body": "A three-year programme at Uppsala University covering a large portion the fundamental physics - from classical mechanics to advanced quantum physics. The programme also involves plenty of rigour in mathematics and a lot of programming."
+            },
+            "master": {
+                "achievements": {
+                    "title": "Achievements",
+                    "programmeadvisoryboard": "Student representative in the Programme Advisory Board for the Masters's Programme in Physics"
+                },
+                "body": "A two-year programme at Uppsala University, specializing in the Nuclear and Particle Physics track. The programme reinforces the knowledge within fundamental physics, and with the course collection of mine I have chosen to put a lot of weight on the experimental aspect of particle physics.",
+                "courses": {
+                    "title": "Selection of courses (so far)",
+                    "cled": "Classical Electrodynamics",
+                    "computerprogrammingii": "Computer Programming II",
+                    "statisticalmethodsinphysics": "Statistical Methods in Physics",
+                    "symmetryandgrouptheory": "Symmetry and Group Theory in Physics"
+                },
+                "location": "Uppsala University",
+                "programme": "(Master's Programme in Physics)",
+                "title": "Master's degree"
             }
         },
         "present": "Present",

@@ -1,0 +1,29 @@
+article.resume-timeline-item.position-relative.pb-5
+    .resume-timeline-item-header.mb-2
+        .d-flex.flex-column.flex-md-row
+            h3.resume-position-title.font-weight-bold.mb-1 
+                = t("cv.edu.master.title")
+                = " "
+                small.text-muted= t("cv.edu.master.programme")
+            .resume-company-name.ml-auto= t("cv.edu.master.location")
+        // //row
+        .resume-position-time 2021 - 
+            = t("cv.present")
+    // //resume-timeline-item-header
+    .resume-timeline-item-desc
+        p= t("cv.edu.master.body")
+        h4.resume-timeline-item-desc-heading.font-weight-bold= t("cv.edu.master.achievements.title")
+            |:
+        ul
+            li= t("cv.edu.master.achievements.programmeadvisoryboard")
+        h4.resume-timeline-item-desc-heading.font-weight-bold= t("cv.edu.master.courses.title")
+            |:
+        ul.list-inline
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill= t("cv.edu.master.courses.cled")
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill= t("cv.edu.master.courses.computerprogrammingii")
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill= t("cv.edu.master.courses.statisticalmethodsinphysics")
+            li.list-inline-item
+                span.badge.badge-primary.badge-pill= t("cv.edu.master.courses.symmetryandgrouptheory")

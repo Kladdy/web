@@ -21,6 +21,7 @@
         "edu": {
             "bachelor": {
                 "achievements": {
+                    "melanderhjelms": "Mottagare av Melanderhjelms stipendium från Teknisk-naturvetenskapliga fakulteten på Uppsala universitet",
                     "mathprizes": "Mottagare av tre priser från Matematiska föreningen på Uppsala universitet för utmärkta resultat på kurserna Geometri och analys I, Geometri och analys III samt Fourieranalys.",
                     "programmeadvisoryboard": "Studentrepresentant i Programrådet för Kandidatprogrammet i Fysik",
                     "studentfacultycouncil": "Viceordförande i Studierådet för Fysikstudenter",
@@ -65,11 +66,11 @@
                     "title": "Prestationer",
                     "programmeadvisoryboard": "Studentrepresentant i Programrådet för Masterprogrammet i Fysik"
                 },
-                "body": "Ett tvåårigt program på Uppsala universitet med inriktning i kärn- och partikelfysik. Programmet fördjupar de befintliga kunskaperna inom den fundamentala fysiken, och med mitt kursupplägg har jag valt att lägga en stor vikt i den experimentiella aspekten av partikelfysiken.",
+                "body": "Ett tvåårigt program på Uppsala universitet med inriktning i kärn- och partikelfysik. Programmet fördjupar de befintliga kunskaperna inom den fundamentala fysiken, och med min kurskollektion har jag valt att lägga en stor vikt i den experimentiella aspekten av partikelfysiken.",
                 "courses": {
-                    "title": "Urval av kurser",
+                    "title": "Urval av kurser (hittills)",
                     "cled": "Klassisk elektrodynamik",
-                    "computerprogrammingi": "Programmeringsteknik II",
+                    "computerprogrammingii": "Programmeringsteknik II",
                     "statisticalmethodsinphysics": "Statistiska metoder i fysiken",
                     "symmetryandgrouptheory": "Symmetri och gruppteori"
                 },
@@ -79,7 +80,7 @@
             },
             "bjorknas": {
                 "achievements": {
-                    "cern": "Deltagare i en två veckor lång praktik på CERN (HSSIP)",
+                    "cern": "Deltagare i en 2 veckor lång praktik på CERN (HSSIP)",
                     "naturprize": "Stipendie från det Naturvetenskapliga programmet för utmärkande prestationer",
                     "programmeadvisoryboard": "Ordförande i Programrådet för det Naturvetenskapliga programmet",
                     "studentcouncil": "Ordförande i Björknäsgymnasiets elevråd",
