@@ -18,56 +18,22 @@ article.resume-timeline-item.position-relative.pb-5
             li= t("cv.edu.bachelor.achievements.studentfacultycouncil")
             li= t("cv.edu.bachelor.achievements.mathprizes")
             li= t("cv.edu.bachelor.achievements.melanderhjelms")
+
+        // Courses
+        -
+            var course_list = ["analyticalmechanics", "complexanalysis", "computerprogrammingi", 
+                "electromagneticfieldtheory", "electromagnetism", "elementaryparticlephysics",
+                "fourieranalysis", "geometryandcalculus", "linearalgebraii",
+                "mathematicalmethodsofphysics", "mathematicalstatisticskf", "mechanics",
+                "medicalphysicsorientation", "nuclearphysics", "ordinarydifferentialequationsi",
+                "physicsproject", "physicsprojectwitharesearchbasis", "physicsandfinance",
+                "quantummechanics", "quantumphysics", "scientificcomputing",
+                "specialrelativity", "statisticalmechanics", "thermodynamics",
+                "wavesandoptics"]
+            var course_names_sorted = course_list.map(course => t("cv.edu.bachelor.courses." + course)).sort()
         h4.resume-timeline-item-desc-heading.font-weight-bold= t("cv.edu.bachelor.courses.title")
             |:
         ul.list-inline
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.analyticalmechanics")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.complexanalysis")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.computerprogrammingi")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.electromagneticfieldtheory")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.electromagnetism")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.elementaryparticlephysics")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.fourieranalysis")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.geometryandcalculus")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.linearalgebraii")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.mathematicalmethodsofphysics")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.mathematicalstatisticskf")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.mechanics")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.medicalphysicsorientation")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.nuclearphysics")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.ordinarydifferentialequationsi")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.physicsproject")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.physicsprojectwitharesearchbasis")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.physicsandfinance")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.quantummechanics")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.quantumphysics")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.scientificcomputing")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.specialrelativity")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.statisticalmechanics")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.thermodynamics")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.bachelor.courses.wavesandoptics")
+            each course_name in course_names_sorted
+                li.list-inline-item
+                    span.badge.badge-primary.badge-pill= course_name

@@ -16,14 +16,15 @@ article.resume-timeline-item.position-relative.pb-5
             |:
         ul
             li= t("cv.edu.master.achievements.programmeadvisoryboard")
+
+        // Courses
+        -
+            var course_list = ["cled", "computerprogrammingii", "statisticalmethodsinphysics", 
+                "symmetryandgrouptheory"]
+            var course_names_sorted = course_list.map(course => t("cv.edu.master.courses." + course)).sort()
         h4.resume-timeline-item-desc-heading.font-weight-bold= t("cv.edu.master.courses.title")
             |:
         ul.list-inline
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.master.courses.cled")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.master.courses.computerprogrammingii")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.master.courses.statisticalmethodsinphysics")
-            li.list-inline-item
-                span.badge.badge-primary.badge-pill= t("cv.edu.master.courses.symmetryandgrouptheory")
+            each course_name in course_names_sorted
+                li.list-inline-item
+                    span.badge.badge-primary.badge-pill= course_name
