@@ -137,7 +137,8 @@
                     "mh": "Backend-utveckling av en meddelande-lyssnare för IoT-enheter som rapporterar till en central server med hjälp av Node.js",
                     "storm": "Integrera kunder till en Storm API i C#",
                     "title": "Projekt",
-                    "tt": "Backend-utveckling av ett kassasystem för föreningar med hjälp av C#, Node.js & microservices"
+                    "tt": "Backend-utveckling av ett kassasystem för föreningar med hjälp av C#, Node.js & microservices",
+                    "owlstreet": "Frontend-utveckling av en webb-baserad dashboardapplikation för E-handelsadministratörer"
                 },
                 "technologies": {
                     "testdrivendevelopment": "Test-driven utveckling",
