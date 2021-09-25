@@ -60,6 +60,23 @@
                 "programme": "(Kandidatprogrammet i Fysik)",
                 "title": "Kandidatexamen"
             },
+            "master": {
+                "achievements": {
+                    "title": "Prestationer",
+                    "programmeadvisoryboard": "Studentrepresentant i Programrådet för Masterprogrammet i Fysik"
+                },
+                "body": "Ett tvåårigt program på Uppsala universitet med inriktning i kärn- och partikelfysik. Programmet fördjupar de befintliga kunskaperna inom den fundamentala fysiken, och med mitt kursupplägg har jag valt att lägga en stor vikt i den experimentiella aspekten av partikelfysiken.",
+                "courses": {
+                    "title": "Urval av kurser",
+                    "cled": "Klassisk elektrodynamik",
+                    "computerprogrammingi": "Programmeringsteknik II",
+                    "statisticalmethodsinphysics": "Statistiska metoder i fysiken",
+                    "symmetryandgrouptheory": "Symmetri och gruppteori"
+                },
+                "location": "Uppsala universitet",
+                "programme": "(Masterprogrammet i Fysik)",
+                "title": "Masterexamen"
+            },
             "bjorknas": {
                 "achievements": {
                     "cern": "Deltagare i en två veckor lång praktik på CERN (HSSIP)",
