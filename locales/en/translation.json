@@ -173,22 +173,47 @@
         }
     },
     "contact": {
-        "card":{
+        "card": {
             "location": "Uppsala, Sweden",
             "title": "Physics student",
             "contact": "Contact"
         }
-            
     },
     "projects": {
         "navbar": {
             "back": "Back to homepage"
         },
         "bachelor": {
-            "name": "Bachelor Project in Physics",
+            "name": "Bachelor thesis in Physics",
             "title": "Neural network neutrino direction reconstruction",
             "description": "In plain English: Where did that particle come from? Let's mimic a brain to find out!",
-            "read_more": "Read more..."
+            "read_more": "Read more...",
+            "page": {
+                "diva": {
+                    "button": "In English",
+                    "name": "The thesis",
+                    "subtitle": "Ghosts of Our Past: Neutrino Direction Reconstruction Using Deep Neural Networks",
+                    "description": "Click the button below to get access to the published thesis on DiVA. You will find an abstract in Engelish and in Swedish, as well as the thesis itself."
+                },
+                "introcard": {
+                    "name": "Bachelor thesis in Physics",
+                    "subtitle": "Uppsala University, 2021",
+                    "description": "During spring of 2021, half a year of research was presented in a thesis with the title 'Ghosts of Our Past: Neutrino Direction Reconstruction Using Deep Neural Networks'. A popular science presentation in Swedish can be found below, which is a summary of the work which is suited for everyone - no matter the age or background."
+                },
+                "konsten": {
+                    "button": "In Swedish",
+                    "subtitle": "The art of teaching a computer to see",
+                    "name": "Popular science presentation",
+                    "description": "Click the buttom below to view my popular science presentation, available in Swedish only. The video is publised to YouTube, and there are no prerequisites for taking in the content. The video can provide insight into the field and the project."
+                },
+                "ode": {
+                    "button_english": "In English",
+                    "button_swedish": "In Swedish",
+                    "name": "Phenomenological video",
+                    "subtitle": "An Ode to a Neutrino",
+                    "description": "Click the button below to view a short video explaining what neutrinos are, and why they are an interesting topic to study."
+                }
+            }
         }
     }
 }

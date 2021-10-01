@@ -1,6 +1,65 @@
 extends base_projects.pug
 
 block content
-    h3.center-text.margin-top
-        = t("general.under_construction")
-        |... &#x1F3D7;
+    //- h3.center-text.margin-top
+    //-     = t("general.under_construction")
+    //-     |... &#x1F3D7;
+    .card
+        img.center-image.padding-top-10(src="/images/projects/bachelor/logo1.jpeg", alt="neutrino-dnn", style='width:90%')
+        h2.name-contact-card= t("projects.bachelor.page.introcard.name")
+        p.title-contact-card= t("projects.bachelor.page.introcard.subtitle")
+        
+        p(style="text-align:left;padding:10px")
+            = t("projects.bachelor.page.introcard.description")
+        
+        //- a(href='./projects/bachelor_project')
+        //-     p.button-card-card= t("projects.bachelor.read_more")
+
+    .card
+        img.center-image.padding-top-10(src="/images/projects/bachelor/card_images/konsten_att_lara.png", alt="Neutrino", style='width:95%')
+        h2.name-contact-card= t("projects.bachelor.page.konsten.name")
+        p.title-contact-card= t("projects.bachelor.page.konsten.subtitle")
+        
+        p(style="text-align:left;padding:10px;")
+            = t("projects.bachelor.page.konsten.description")
+        
+        a(href='https://www.youtube.com/watch?v=D46LQJMMB-o', target="_blank", title="YouTube")
+            p.button-card-card
+                span.flag-icon.flag-icon-se 
+                = " "
+                = t("projects.bachelor.page.konsten.button")
+
+    .card
+        img.center-image.padding-top-10(src="/images/projects/bachelor/card_images/diva_logo.png", alt="DiVA", style='width:50%')
+        h2.name-contact-card= t("projects.bachelor.page.diva.name")
+        p.title-contact-card= t("projects.bachelor.page.diva.subtitle")
+        
+        p(style="text-align:left;padding:10px")
+            = t("projects.bachelor.page.diva.description")
+        
+        a(href='https://www.diva-portal.org/smash/record.jsf?pid=diva2:1579353', target="_blank", title="DiVA")
+            p.button-card-card
+                span.flag-icon.flag-icon-gb 
+                = " "
+                = t("projects.bachelor.page.diva.button")
+
+    .card
+        img.center-image.padding-top-10(src="/images/projects/bachelor/card_images/ode_to_a_neutrino.png", alt="Neutrino", style='width:95%')
+        h2.name-contact-card= t("projects.bachelor.page.ode.name")
+        p.title-contact-card= t("projects.bachelor.page.ode.subtitle")
+        
+        p(style="text-align:left;padding:10px")
+            = t("projects.bachelor.page.ode.description")
+        
+        a(href='https://www.youtube.com/watch?v=6ZhLDokZal4', target="_blank", title="YouTube")
+            p.button-card-card
+                span.flag-icon.flag-icon-gb
+                = " "
+                = t("projects.bachelor.page.ode.button_english")
+        a(href='https://www.youtube.com/watch?v=V2zWJDH0GK8', target="_blank", title="YouTube")
+            p.button-card-card
+                span.flag-icon.flag-icon-se 
+                = " "
+                = t("projects.bachelor.page.ode.button_swedish")
+    
+    

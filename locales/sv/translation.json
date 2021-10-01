@@ -184,10 +184,36 @@
             "back": "Navigera till startsidan"
         },
         "bachelor": {
-            "name": "Kandidatprojekt i fysik",
+            "name": "Kandidatuppsats i fysik",
             "title": "Rekonstruktion av neutrinoriktning med neurala nätverk",
             "description": "På ren svenska: Vart kom den där partikeln från? Härma en hjärna för att ta reda på svaret!",
-            "read_more": "Läs mer..."
+            "read_more": "Läs mer...",
+            "page": {
+                "introcard": {
+                    "name": "Kandidatarbete i fysik",
+                    "subtitle": "Uppsala universitet, 2021",
+                    "description": "Under våren 2021 mynnades ett halvår av forskning ut i en uppsats med titeln 'Ghosts of Our Past: Neutrino Direction Reconstruction Using Deep Neural Networks'. En populärvetenskaplig presentation på svenska går att hitta nedan, som är en sammanfattning av mitt arbete som passar alla - oavsett ålder och bakgrund."
+                },
+                "konsten": {
+                    "name": "Populärvetenskaplig presentation",
+                    "subtitle": "Konsten att lära en dator att se",
+                    "description": "Klicka på knappen nedan för att se mitt populärvetenskapliga föredrag. Videon är publicerad på YouTube, och det finns inga förkunskapskrav för att ta del av innehållet. Videon kan ge en övergripande inblick inom fältet och projektet.",
+                    "button": "På svenska"
+                },
+                "diva": {
+                    "name": "Uppsatsen",
+                    "subtitle": "Ghosts of Our Past: Neutrino Direction Reconstruction Using Deep Neural Networks",
+                    "description": "Klicka på knappen nedan för att komma till uppsatsen publiceringssida på DiVA. Här har du läsa en sammanfattning av uppsatsen på engelska och svenska, samt rapporten i sin helhet på engelska.",
+                    "button": "På engelska"
+                },
+                "ode": {
+                    "name": "Fenomenologisk video",
+                    "subtitle": "En hyllning till en neutrino",
+                    "description": "Klicka på knappen nedan för att se en kort video som förklarar vad neutriner är, och varför de är intressanta att studera.",
+                    "button_english": "På engelska",
+                    "button_swedish": "På svenska"
+                }
+            }
         }
     }
 }
