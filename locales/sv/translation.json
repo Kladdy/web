@@ -192,7 +192,7 @@
                 "introcard": {
                     "name": "Kandidatarbete i fysik",
                     "subtitle": "Uppsala universitet, 2021",
-                    "description": "Under våren 2021 mynnades ett halvår av forskning ut i en uppsats med titeln 'Ghosts of Our Past: Neutrino Direction Reconstruction Using Deep Neural Networks'. En populärvetenskaplig presentation på svenska går att hitta nedan, som är en sammanfattning av mitt arbete som passar alla - oavsett ålder och bakgrund."
+                    "description": "Under våren 2021 mynnades ett halvår av forskning ut i en uppsats med titeln 'Ghosts of Our Past: Neutrino Direction Reconstruction Using Deep Neural Networks'. Handledaren för projektet var Christian Glaser vid avdelningen för högenergifysik vid Uppsala universitet. En populärvetenskaplig presentation på svenska går att hitta nedan, som är en sammanfattning av mitt arbete som passar alla - oavsett ålder och bakgrund."
                 },
                 "konsten": {
                     "name": "Populärvetenskaplig presentation",
@@ -212,6 +212,12 @@
                     "description": "Klicka på knappen nedan för att se en kort video som förklarar vad neutriner är, och varför de är intressanta att studera.",
                     "button_english": "På engelska",
                     "button_swedish": "På svenska"
+                },
+                "icrc": {
+                    "button": "På engelska",
+                    "name": "ICRC 2021 Proceeding",
+                    "subtitle": "Neutrino direction and flavor reconstruction from radio detector data using deep convolutional neural networks",
+                    "description": "Arbetet i denna uppsats fick som följd ett deltagande i ICRC 2021, en internationell konferans inom fältet astropartikelfysik. Tillsammans med handledaren Christian Glaser och en studentkollega, Oscar Erikcsson, publicerade vi en proceeding som kan hittas nedan. "
                 }
             }
         }

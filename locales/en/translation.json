@@ -198,7 +198,7 @@
                 "introcard": {
                     "name": "Bachelor thesis in Physics",
                     "subtitle": "Uppsala University, 2021",
-                    "description": "During spring of 2021, half a year of research was presented in a thesis with the title 'Ghosts of Our Past: Neutrino Direction Reconstruction Using Deep Neural Networks'. A popular science presentation in Swedish can be found below, which is a summary of the work and is suited for everyone - no matter the age or background."
+                    "description": "During spring of 2021, half a year of research was presented in a thesis with the title 'Ghosts of Our Past: Neutrino Direction Reconstruction Using Deep Neural Networks'. The supervisor of the project was Christian Glaser at the Division for High Energy Physics at Uppsala University. A popular science presentation in Swedish can be found below, which is a summary of the work and is suited for everyone - no matter the age or background."
                 },
                 "konsten": {
                     "button": "In Swedish",
@@ -212,6 +212,12 @@
                     "name": "Phenomenological video",
                     "subtitle": "An Ode to a Neutrino",
                     "description": "Click the button below to view a short video explaining what neutrinos are, and why they are an interesting topic to study."
+                },
+                "icrc": {
+                    "name": "ICRC 2021 Proceeding",
+                    "subtitle": "Neutrino direction and flavor reconstruction from radio detector data using deep convolutional neural networks",
+                    "description": "The work in the thesis led to the participation in ICRC 2021, an international conference within the field of astroparticle physics. Together with the supervisor Christian Glaser and a fellow student, Oscar Ericsson, we published a proceeding which can be found below.",
+                    "button": "In English"
                 }
             }
         }
