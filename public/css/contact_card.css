@@ -53,3 +53,8 @@
 .padding-left-right-10 {
     padding: 0px 10px
 }
+
+.card-description {
+    text-align: left;
+    padding:10px
+}
