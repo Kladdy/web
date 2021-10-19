@@ -197,8 +197,9 @@
                 "konsten": {
                     "name": "Populärvetenskaplig presentation",
                     "subtitle": "Konsten att lära en dator att se",
-                    "description": "Klicka på knappen nedan för att se mitt populärvetenskapliga föredrag. Videon är publicerad på YouTube, och det finns inga förkunskapskrav för att ta del av innehållet. Videon kan ge en övergripande inblick inom fältet och projektet.",
-                    "button": "På svenska"
+                    "description": "Klicka på knappen nedan för att se mitt populärvetenskapliga föredrag, tillgänglig på svenska och engelska. Videon är publicerad på YouTube, och det finns inga förkunskapskrav för att ta del av innehållet. Presentationen kan ge en övergripande inblick inom fältet och projektet.",
+                    "button_english": "På engelska",
+                    "button_swedish": "På svenska"
                 },
                 "diva": {
                     "name": "Uppsatsen",
