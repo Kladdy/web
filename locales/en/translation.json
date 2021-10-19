@@ -132,7 +132,8 @@
             "master": {
                 "achievements": {
                     "title": "Achievements",
-                    "programmeadvisoryboard": "Student representative in the Programme Advisory Board for the Masters's Programme in Physics"
+                    "programmeadvisoryboard": "Student representative in the Programme Advisory Board for the Masters's Programme in Physics",
+                    "studentconference": "Recipient of the award 'Best student presentation' at The Student Conference in Science and Technology 2021"
                 },
                 "body": "A two-year programme at Uppsala University, specializing in the Nuclear and Particle Physics track. The programme reinforces the knowledge within fundamental physics, and with the course collection of mine I have chosen to put a lot of weight on the experimental aspect of particle physics.",
                 "courses": {
