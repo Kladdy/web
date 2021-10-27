@@ -1,10 +1,18 @@
 const express = require('express');
 const { check } = require('express-validator');
 const router = express.Router();
+const { analytics } = require('../segment_analytics/analytics')
 
 const IndexController = require('../controllers/index_controller');
 
 router.get('/', (req, res) => {
+    analytics.track({
+        anonymousId: req.sessionID,
+        event: 'get_home',
+        properties: {
+            url: '/'
+        },
+    })
     IndexController.get(req, res)
 });
 

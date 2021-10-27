@@ -5,6 +5,7 @@ const i18nextMiddleware = require('i18next-express-middleware');
 const Backend = require('i18next-node-fs-backend');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
+var session = require('express-session')
 
 const IndexRoutes = require('./routes/index');
 const ProjectsRoutes = require('./routes/projects');
@@ -41,6 +42,11 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(session({
+    secret: process.env.SESSIONSECRET,
+    resave: false,
+    saveUninitialized: true
+}));
 
 app.use('/', IndexRoutes);
 app.use('/projects', ProjectsRoutes);

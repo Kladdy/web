@@ -1,10 +1,18 @@
 const express = require('express');
 const { check } = require('express-validator');
 const router = express.Router();
+const { analytics } = require('../segment_analytics/analytics')
 
 const BachelorController = require('../controllers/projects_controller');
 
 router.get('/bachelor_project', (req, res) => {
+    analytics.track({
+        anonymousId: req.sessionID,
+        event: 'get_bachelor_project',
+        properties: {
+            url: '/bachelor_project'
+        },
+    })
     BachelorController.get(req, res)
 });
 
