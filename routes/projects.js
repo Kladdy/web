@@ -10,7 +10,8 @@ router.get('/bachelor_project', (req, res) => {
         anonymousId: req.sessionID,
         event: 'get_bachelor_project',
         properties: {
-            url: '/bachelor_project'
+            url: '/bachelor_project',
+            env: process.env.NODE_ENV
         },
     })
     BachelorController.get(req, res)

@@ -10,7 +10,8 @@ router.get('/', (req, res) => {
         anonymousId: req.sessionID,
         event: 'get_home',
         properties: {
-            url: '/'
+            url: '/',
+            env: process.env.NODE_ENV
         },
     })
     IndexController.get(req, res)
