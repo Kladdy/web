@@ -11,7 +11,7 @@ router.get('/bachelor_project', (req, res) => {
         event: 'get_bachelor_project',
         properties: {
             url: '/bachelor_project',
-            env: process.env.NODE_ENV
+            env: process.env.WEBENV
         },
     })
     BachelorController.get(req, res)

@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
         event: 'get_home',
         properties: {
             url: '/',
-            env: process.env.NODE_ENV
+            env: process.env.WEBENV
         },
     })
     IndexController.get(req, res)
