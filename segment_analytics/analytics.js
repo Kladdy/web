@@ -1,6 +1,6 @@
 const { get_ip_details } = require('../routes/get_ip_details')
 var useragent = require('useragent');
-// useragent(true); // Always keep the RegExp library up to date
+useragent(true); // Always keep the RegExp library up to date
 var Analytics = require('analytics-node');
 
 var analytics = new Analytics(process.env.SEGMENTKEY || process.env.SEGMENTKEYDEV);
