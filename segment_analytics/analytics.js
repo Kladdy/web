@@ -14,7 +14,7 @@ const track = (req, event, url) => {
         properties: {
             url: url,
             env: process.env.WEBENV,
-            // os: agent?.toAgent(),
+            os: agent?.toAgent(),
             // browser: agent?.os.toString(),
             // device: agent?.device.toString(),
             ...get_ip_details(req)
