@@ -22,6 +22,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.2",
     "express-validator": "^6.9.0",
+    "geoip-lite": "^1.4.2",
     "i18next": "^19.8.4",
     "i18next-express-middleware": "^2.0.0",
     "i18next-node-fs-backend": "^2.1.3",
