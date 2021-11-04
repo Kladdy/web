@@ -14,6 +14,7 @@ const track = (req, event, url) => {
         properties: {
             url: url,
             env: process.env.WEBENV,
+            agent: agent,
             // os: agent?.toAgent?.(),
             // browser: agent?.os?.toString?.(),
             // device: agent?.device?.toString?.(),
