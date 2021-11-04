@@ -17,7 +17,7 @@ const track = (req, event, url) => {
             // os: agent?.toAgent(),
             // browser: agent?.os.toString(),
             // device: agent?.device.toString(),
-            // ...get_ip_details(req),
+            ...get_ip_details(req)
         },
     })
 }
