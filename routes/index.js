@@ -7,7 +7,7 @@ const IndexController = require('../controllers/index_controller');
 
 get_index_url = '/'
 router.get(get_index_url, (req, res) => {
-    track(req, 'get_home', get_index_url)
+    //track(req, 'get_home', get_index_url)
 
     IndexController.get(req, res)
 });
