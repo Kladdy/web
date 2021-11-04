@@ -1,10 +1,14 @@
 const express = require('express');
 // const { check } = require('express-validator');
 const router = express.Router();
+const { track } = require('../segment_analytics/analytics')
 
 const IndexController = require('../controllers/index_controller');
 
-router.get('/', (req, res) => {
+get_index_url = '/'
+router.get(get_index_url, (req, res) => {
+    track(req, 'get_home', get_index_url)
+
     IndexController.get(req, res)
 });
 
