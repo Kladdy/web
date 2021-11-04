@@ -1,21 +1,14 @@
 const express = require('express');
-const { check } = require('express-validator');
+// const { check } = require('express-validator');
 const router = express.Router();
-const { analytics } = require('../segment_analytics/analytics')
-const { get_ip_details } = require('./get_ip_details')
+const { track } = require('../segment_analytics/analytics')
 
 const BachelorController = require('../controllers/projects_controller');
 
-router.get('/bachelor_project', (req, res) => {
-    analytics.track({
-        anonymousId: req.sessionID,
-        event: 'get_bachelor_project',
-        properties: {
-            url: '/bachelor_project',
-            env: process.env.WEBENV,
-            ...get_ip_details(req)
-        },
-    })
+get_bachelor_project_url = '/bachelor_project'
+router.get(get_bachelor_project_url, (req, res) => {
+    track(req, 'get_bachelor_project', get_bachelor_project_url)
+    
     BachelorController.get(req, res)
 });
 
