@@ -6,7 +6,7 @@ var Analytics = require('analytics-node');
 var analytics = new Analytics(process.env.SEGMENTKEY || process.env.SEGMENTKEYDEV);
 
 const track = (req, event, url) => {
-    // var agent = useragent.parse(req.headers['user-agent']);
+    var agent = useragent.parse(req.headers['user-agent']);
 
     analytics.track({
         anonymousId: req.sessionID,
