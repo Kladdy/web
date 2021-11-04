@@ -13,9 +13,10 @@ router.get('/', (req, res) => {
         properties: {
             url: '/',
             env: process.env.WEBENV,
-            ip_details: get_ip_details(req)
+            ...get_ip_details(req)
         },
     })
+
     IndexController.get(req, res)
 });
 

@@ -13,7 +13,7 @@ router.get('/bachelor_project', (req, res) => {
         properties: {
             url: '/bachelor_project',
             env: process.env.WEBENV,
-            ip_details: get_ip_details(req)
+            ...get_ip_details(req)
         },
     })
     BachelorController.get(req, res)
