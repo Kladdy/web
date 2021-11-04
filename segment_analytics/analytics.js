@@ -7,14 +7,14 @@ var analytics = new Analytics(process.env.SEGMENTKEY || process.env.SEGMENTKEYDE
 
 const track = (req, event, url) => {
     var agent = useragent.parse(req.headers['user-agent']);
-
+    
     analytics.track({
         anonymousId: req.sessionID,
         event: event,
         properties: {
             url: url,
             env: process.env.WEBENV,
-            agent: agent,
+            language: req.i18n?.language,
             os: agent?.toAgent(),
             browser: agent?.os.toString(),
             device: agent?.device.toString(),
