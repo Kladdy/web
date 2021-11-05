@@ -6,21 +6,26 @@ var Analytics = require('analytics-node');
 var analytics = new Analytics(process.env.SEGMENTKEY || process.env.SEGMENTKEYDEV);
 
 const track = (req, event, url) => {
-    var agent = useragent.parse(req.headers['user-agent']);
+    try {
+        var agent = useragent.parse(req.headers['user-agent']);
     
-    analytics.track({
-        anonymousId: req.sessionID,
-        event: event,
-        properties: {
-            url: url,
-            env: process.env.WEBENV,
-            language: req.i18n?.language,
-            os: agent?.toAgent(),
-            browser: agent?.os.toString(),
-            device: agent?.device.toString(),
-            ...get_ip_details(req)
-        },
-    })
+        analytics.track({
+            anonymousId: req.sessionID,
+            event: event,
+            properties: {
+                url: url,
+                env: process.env.WEBENV,
+                language: req.i18n?.language,
+                os: agent?.toAgent(),
+                browser: agent?.os.toString(),
+                device: agent?.device.toString(),
+                ...get_ip_details(req)
+            },
+        })
+    } catch (error) {
+        
+    }
+    
 }
 
 module.exports.analytics = analytics

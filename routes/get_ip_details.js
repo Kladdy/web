@@ -6,7 +6,6 @@ const get_ip_details = (req) => {
         details = lookup(ip)
         return details
     } catch (error) {
-        console.log("Error looking up ip", error)
         return null
     }
 }
