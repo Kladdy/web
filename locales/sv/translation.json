@@ -1,6 +1,6 @@
 {
     "tabs": {
-        "about_me": "Om mig",
+        "home": "Hem",
         "projects": "Projekt",
         "cv": "CV",
         "contact": "Kontakt"
@@ -166,7 +166,7 @@
             "hometownambassador": "Hemortsambassadör för Uppsala universitet"
         }
     },
-    "about": {
+    "home": {
         "hi1": "Hej!",
         "hi2": "Halloj!",
         "hi3": "Tjena!",

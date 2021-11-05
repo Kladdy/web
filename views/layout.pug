@@ -53,8 +53,8 @@ html
                 #navbarsExample09.collapse.navbar-collapse
                     ul#myTab.nav.nav-pills.mr-auto
                         li.nav-item
-                            a.nav-link.active(data-toggle="tab", href="#about", role="tab", aria-controls="profile", aria-selected="true")
-                                | #{t("tabs.about_me")} 
+                            a.nav-link.active(data-toggle="tab", href="#home", role="tab", aria-controls="profile", aria-selected="true")
+                                | #{t("tabs.home")} 
                             span.sr-only
                         li.nav-item
                             a.nav-link(data-toggle="tab", href="#projects", role="tab", aria-controls="projects", aria-selected="false")
@@ -88,8 +88,8 @@ html
                                         |   Svenska
 
             #myTabContent.tab-content
-                #about.tab-pane.container.fade.show.active(role='tabpanel' aria-labelledby='about-tab')
-                    include about.pug
+                #home.tab-pane.container.fade.show.active(role='tabpanel' aria-labelledby='home-tab')
+                    include home.pug
                 #projects.tab-pane.container.fade(role='tabpanel' aria-labelledby='projects-tab')
                     include projects.pug
                 #cv.tab-pane.container.fade(role='tabpanel' aria-labelledby='cv-tab')
