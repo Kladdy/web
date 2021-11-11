@@ -12,6 +12,15 @@ const ProjectsRoutes = require('./routes/projects');
 
 const app = express();
 
+// Content-Security-Policty
+// app.use(function (req, res, next) {
+//     res.setHeader(
+//         'Content-Security-Policy',
+//         "script-src 'self' https://apis.google.com https://maxcdn.bootstrapcdn.com https://code.jquery.com" 
+//     );
+//     next();
+// });
+
 // i18n
 i18next
     .use(Backend)
