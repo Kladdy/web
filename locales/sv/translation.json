@@ -168,6 +168,17 @@
                     "research_nn": "Forskningsuppdrag relaterade till användandet av neurala nätverk för att återskapa egenskaperna hos neutriner från radiodetektordata. Arbete ska användas för en kommande detektorstation på sydpolen vid namnet IceCube-Gen2 radio, och är en fortsättning på mitt kandidatarbete. "
                 },
                 "body": "Med en deltidsanställning under Masterprogrammet arbetar jag som forskningsassistent på institutionen för fysik och astronomi vid Uppsala universitet. Jag är inblandad i astropartikelfysikgruppen som är kopplad till avdelningen för högenergifysik. Jag är också anställd som amanuens på institutionen för informationsteknologi."
+            },
+            "research_teachingBEFORE_TEACHING": {
+                "title": "Forskningsassistent",
+                "location": "Uppsala universitet",
+                "involvements": {
+                    "title": "Engagemang",
+                    "research_batteries": "???",
+                    "teaching": "Amanuens i kursen Programmeringsteknik II under våren 2022. Kursen ges i Python, och uppdragen inkluderade rättning av uppgifter samt att bistå med hjälp för studenterna kring kursmaterialet.",
+                    "research_nn": "Forskningsuppdrag relaterade till användandet av neurala nätverk för att återskapa egenskaperna hos neutriner från radiodetektordata. Arbete ska användas för en kommande detektorstation på sydpolen vid namnet IceCube-Gen2 radio, och är en fortsättning på mitt kandidatarbete. "
+                },
+                "body": "Med en deltidsanställning under Masterprogrammet arbetar jag som forskningsassistent på institutionen för fysik och astronomi vid Uppsala universitet. Jag är inblandad i astropartikelfysikgruppen som är kopplad till avdelningen för högenergifysik."
             }
         },
         "engagements": {
