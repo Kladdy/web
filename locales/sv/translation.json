@@ -65,7 +65,9 @@
                 "achievements": {
                     "title": "Prestationer",
                     "programmeadvisoryboard": "Studentrepresentant i Programrådet för Masterprogrammet i Fysik",
-                    "studentconference": "Mottagare av priset 'Bästa studentpresentation' på TekNats studentkonferens 2021"
+                    "studentconference": "Mottagare av priset 'Bästa studentpresentation' på TekNats studentkonferens 2021",
+                    "hallbergs": "Mottagare av stipendiet Hallbergs, M o I, som ges ut till en 'begåvad studerande'"
+
                 },
                 "body": "Ett tvåårigt program på Uppsala universitet med inriktning i kärn- och partikelfysik. Programmet fördjupar de befintliga kunskaperna inom den fundamentala fysiken, och med min kurskollektion har jag valt att lägga en stor vikt i den experimentiella aspekten av partikelfysiken.",
                 "courses": {
