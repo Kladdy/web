@@ -27,7 +27,7 @@
         },
         "header": {
             "location": "Uppsala, Sweden",
-            "title": "Physics student"
+            "title": "Physics student & developer"
         },
         "summary": {
             "title": "Career Summary",
@@ -153,7 +153,12 @@
                     "cled": "Classical Electrodynamics",
                     "computerprogrammingii": "Computer Programming II",
                     "statisticalmethodsinphysics": "Statistical Methods in Physics",
-                    "symmetryandgrouptheory": "Symmetry and Group Theory in Physics"
+                    "symmetryandgrouptheory": "Symmetry and Group Theory in Physics",
+                    "acceleratorsanddetectors": "Accelerators and Detectors", 
+                    "advancedparticlephysics": "Advanced Particle Physics", 
+                    "industrialmanagment": "Industrial Management", 
+                    "electricmeasurementtechniques": "Electric Measurement Techniques", 
+                    "quantumfieldtheory": "Quantum Field Theory"
                 },
                 "location": "Uppsala University",
                 "programme": "(Master's Programme in Physics)",
@@ -188,7 +193,7 @@
     "contact": {
         "card": {
             "location": "Uppsala, Sweden",
-            "title": "Physics student",
+            "title": "Physics student & developer",
             "contact": "Contact"
         }
     },

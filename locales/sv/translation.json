@@ -75,7 +75,12 @@
                     "cled": "Klassisk elektrodynamik",
                     "computerprogrammingii": "Programmeringsteknik II",
                     "statisticalmethodsinphysics": "Statistiska metoder i fysiken",
-                    "symmetryandgrouptheory": "Symmetri och gruppteori"
+                    "symmetryandgrouptheory": "Symmetri och gruppteori",
+                    "acceleratorsanddetectors": "Acceleratorer och detektorer", 
+                    "advancedparticlephysics": "Partikelfysik II", 
+                    "industrialmanagment": "Industriell ekonomi", 
+                    "electricmeasurementtechniques": "Elektrisk mätteknik", 
+                    "quantumfieldtheory": "Kvantfältteori"
                 },
                 "location": "Uppsala universitet",
                 "programme": "(Masterprogrammet i Fysik)",
@@ -101,7 +106,7 @@
         },
         "header": {
             "location": "Uppsala, Sverige",
-            "title": "Fysikstudent"
+            "title": "Fysikstudent & utvecklare"
         },
         "hobbies": {
             "bread": "Brödbakning",
@@ -190,7 +195,7 @@
         "card": {
             "contact": "Kontakta",
             "location": "Uppsala, Sverige",
-            "title": "Fysikstudent"
+            "title": "Fysikstudent & utvecklare"
         }
     },
     "projects": {
