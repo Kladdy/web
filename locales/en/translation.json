@@ -64,21 +64,10 @@
                 "involvements": {
                     "title": "Involvements",
                     "research_nn": "Research tasks related to using neural networks to reconstruct neutrino properties from radio detector data. The work is to be used for an upcoming detector station at the South Pole called IceCube-Gen2 radio, and is a continuation of my bachelor's thesis.",
-                    "research_batteries": "???",
+                    "research_batteries_and_wind": "Research regarding the use of wind generators and batteries that can handle the extreme cold at the South Pole. The tasks included measuring of generator losses, output voltages, as well as battery capacities.",
                     "teaching": "Teaching assistant in Computer Programming II during spring 2022. The course was given in Python, and the tasks included correcting assignments and aiding students with the course material."
                 },
                 "body": "With a part-time employment during the Master's Programme, I work as a research assistant at the Department of Physics and Astronomy at Uppsala University. I am involved within the Astroparticle Physics research group, coupled to the Division for High Energy Physics (HEP). I also work as a teacher assistant at the Department of Information Technology."
-            },
-            "research_teachingBEFORE_TEACHING": {
-                "title": "Research assistant",
-                "location": "Uppsala University",
-                "involvements": {
-                    "title": "Involvements",
-                    "research_nn": "Research tasks related to using neural networks to reconstruct neutrino properties from radio detector data. The work is to be used for an upcoming detector station at the South Pole called IceCube-Gen2 radio, and is a continuation of my bachelor's thesis.",
-                    "research_batteries": "???",
-                    "teaching": "Teaching assistant in Computer Programming II during spring 2022. The course was given in Python, and the tasks included correcting assignments and aiding students with the course material."
-                },
-                "body": "With a part-time employment during the Master's Programme, I work as a research assistant at the Department of Physics and Astronomy at Uppsala University. I am involved within the Astroparticle Physics research group, coupled to the Division for High Energy Physics (HEP)."
             },
             "lm": {
                 "title": "Event organizer",
