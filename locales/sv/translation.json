@@ -80,7 +80,12 @@
                     "advancedparticlephysics": "Partikelfysik II", 
                     "industrialmanagment": "Industriell ekonomi", 
                     "electricmeasurementtechniques": "Elektrisk mätteknik", 
-                    "quantumfieldtheory": "Kvantfältteori"
+                    "quantumfieldtheory": "Kvantfältteori",
+                    "electronics1": "Elektronik I",
+                    "solidmechanics": "Hållfasthetslära",
+                    "fluidmechanics": "Fluidmekanik",
+                    "solidstatephysics": "Fasta tillståndets fysik F",
+                    "automaticcontrol": "Reglerteknik I"
                 },
                 "location": "Uppsala universitet",
                 "programme": "(Masterprogrammet i Fysik)",
@@ -170,17 +175,19 @@
                 "location": "Uppsala universitet",
                 "involvements": {
                     "title": "Engagemang",
+                    "teacher_aodlip": "Lärarassistent under hösten 2022 i kursen Tillämpad djupinlärning i fysik, en kurs som ger en introduktion till maskininlärning, djupinlärning och neurala nätverk med vikt på tillämningar inom fysik.",
                     "research_batteries_and_wind": "Forskning kring användadet av vindgeneratorer samt batteier som klarar den extrama kylan som råder på Sydpolen. Uppdaget innefattade mätning av generatorförluster, genererade spänningar och batterikapaciteter.",
-                    "teaching": "Amanuens i kursen Programmeringsteknik II under våren 2022. Kursen ges i Python, och uppdragen inkluderade rättning av uppgifter samt att bistå med hjälp för studenterna kring kursmaterialet.",
-                    "research_nn": "Forskningsuppdrag relaterade till användandet av neurala nätverk för att återskapa egenskaperna hos neutriner från radiodetektordata. Arbete ska användas för en kommande detektorstation på Sydpolen vid namnet IceCube-Gen2 radio, och är en fortsättning på mitt kandidatarbete. "
+                    "teaching": "Amanuens i kursen Programmeringsteknik II under våren 2022. Kursen gavs i Python, och uppdragen inkluderade rättning av uppgifter samt att bistå med hjälp för studenterna kring kursmaterialet.",
+                    "research_nn": "Forskningsuppdrag relaterade till användandet av neurala nätverk för att återskapa egenskaperna hos neutriner från radiodetektordata. Arbete ska användas för en kommande detektorstation på Sydpolen vid namnet IceCube-Gen2 radio, och var en fortsättning på mitt kandidatarbete. "
                 },
-                "body": "Med en deltidsanställning under Masterprogrammet arbetar jag som forskningsassistent på institutionen för fysik och astronomi vid Uppsala universitet. Jag är inblandad i astropartikelfysikgruppen som är kopplad till avdelningen för högenergifysik. Jag är också anställd som amanuens på institutionen för informationsteknologi."
+                "body": "Med en deltidsanställning under Masterprogrammet har jag arbetat som forskningsassistent på institutionen för fysik och astronomi vid Uppsala universitet. Jag är inblandad i astropartikelfysikgruppen som är kopplad till avdelningen för högenergifysik. Jag har också varit anställd som amanuens på institutionen för informationsteknologi."
             }
         },
         "engagements": {
             "title": "Engagemang",
             "bannercarrier": "Fanbärare för Norrlands nation",
             "hp": "Provledare på Högskoleprovet",
+            "election": "Röstmottagare i riksdag-, kommun- och regionvalen 2022",
             "hometownambassador": "Hemortsambassadör för Uppsala universitet"
         }
     },
