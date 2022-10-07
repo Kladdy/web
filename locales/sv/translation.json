@@ -193,7 +193,7 @@
         },
         "engagements": {
             "title": "Engagemang",
-            "selfemployed": "Egenföretagare på <a href='https://consulting.stjarnholm.com'> Stjärnholm Consulting</a>",
+            "selfemployed": "Egenföretagare på <a href='https://consulting.stjarnholm.com' target='_blank'> Stjärnholm Consulting</a>",
             "bannercarrier": "Fanbärare för Norrlands nation",
             "hp": "Provledare på Högskoleprovet",
             "election": "Röstmottagare i riksdag-, kommun- och regionvalen 2022",
@@ -211,7 +211,9 @@
             "milliseconds": "ms",
             "thrombocytes_title": "Jag har donerat",
             "thrombocytes": "trombocyter",
-            "thrombocytes_sessions": "under {{count}} sessioner"
+            "thrombocytes_sessions": "under {{count}} sessioner",
+            "papers_title": "Jag har publicerat",
+            "papers_count": "<a href='https://scholar.google.com/citations?hl=en&user=04sT1QsAAAAJ' target='_blank'>{{count}} vetenskapliga artiklar</a>"
         }
     },
     "home": {

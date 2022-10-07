@@ -200,7 +200,7 @@
         },
         "engagements": {
             "title": "Engagements",
-            "selfemployed": "Self-employed at <a href='https://consulting.stjarnholm.com'> Stjärnholm Consulting</a>",
+            "selfemployed": "Self-employed at <a href='https://consulting.stjarnholm.com' target='_blank'> Stjärnholm Consulting</a>",
             "bannercarrier": "Banner carrier for Norrland's nation (Student association in Uppsala)",
             "hp": "Test supervisor at the Swedish Scholastic Aptitude Test (Högskoleprovet, SweSAT)",
             "election": "Election worker at the 2022 Swedish general election",
@@ -218,7 +218,9 @@
             "milliseconds": "ms",
             "thrombocytes_title": "I have donated",
             "thrombocytes": "thrombocytes",
-            "thrombocytes_sessions": "during {{count}} sessions"
+            "thrombocytes_sessions": "during {{count}} sessions",
+            "papers_title": "I have published",
+            "papers_count": "<a href='https://scholar.google.com/citations?hl=en&user=04sT1QsAAAAJ' target='_blank'>{{count}} scientific papers</a>"
         }
     },
     "contact": {
