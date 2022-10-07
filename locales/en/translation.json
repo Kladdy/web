@@ -36,9 +36,17 @@
         "skills": {
             "software": "Software",
             "hardware": "Hardware",
+            "other": "Other",
             "computerassembly": "Computer assembling",
             "circuits": "Circuits",
-            "title": "Skills & tools"
+            "title": "Skills & tools",
+            "presentations": "Presentations",
+            "speach": "Giving speeches",
+            "structure": "Structuring work",
+            "getthingsdone": "Getting things done",
+            "teamwork": "Collaborative",
+            "independence": "Independent",
+            "responsible": "Responsible"
         },
         "work": {
             "title": "Work experience",

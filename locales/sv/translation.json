@@ -135,8 +135,16 @@
             "computerassembly": "Datorbyggande",
             "hardware": "Hårdvara",
             "software": "Mjukvara",
+            "other": "Övrigt",
             "circuits": "Kretsar",
-            "title": "Kompetens & verktyg"
+            "title": "Kompetens & verktyg",
+            "presentations": "Presentationer",
+            "speach": "Hålla tal",
+            "structure": "Strukturera arbete",
+            "getthingsdone": "Få saker gjorda",
+            "teamwork": "Kollaborativ",
+            "independence": "Självständig",
+            "responsible": "Ansvarstagande"
         },
         "summary": {
             "body": "Som studerande på både gymnasial- och universitetsnivå har jag varit engagerad en mängd olika program- och elevråd. Att ha jobbat som mjukvarukonsult vid sidan om mina studier har givit mig stor erfarenhet för hur projekt utvecklas och har även gett mig möjligheten att lära mig många olika programmeringsfilosofier.",
