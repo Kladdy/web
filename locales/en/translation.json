@@ -205,6 +205,20 @@
             "hp": "Test supervisor at the Swedish Scholastic Aptitude Test (Högskoleprovet, SweSAT)",
             "election": "Election worker at the 2022 Swedish general election",
             "hometownambassador": "Hometown ambassador for Uppsala University"
+        },
+        "stats": {
+            "title": "Statistics",
+            "age": "I have lived for",
+            "years": "yr",
+            "months": "mo",
+            "days": "d",
+            "hours": "h",
+            "minutes": "min",
+            "seconds": "s",
+            "milliseconds": "ms",
+            "thrombocytes_title": "I have donated",
+            "thrombocytes": "thrombocytes",
+            "thrombocytes_sessions": "during {{count}} sessions"
         }
     },
     "contact": {

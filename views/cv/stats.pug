@@ -1,0 +1,89 @@
+//- UPDATE THIS NUMBER BELOW ASWELL
+- const thrombocyte_sessions = 36
+- const thrombocytes_per_sessions = 590e9
+
+script.
+  // Prepend space to the digits in stopwatch
+  function prependSpace(time, length) {
+      //- time = new String(time);    // stringify time
+      //- return new Array(Math.max(length - time.length + 1, 0)).join("") + time;
+      return time.toString().padStart(length);
+  }
+  function setStopwatch(years, months, days, hours, minutes, seconds){
+      $("#years").html(years);
+      $("#months").html(months);
+      $("#days").html(days);
+      $("#hours").html(hours);
+      $("#minutes").html(minutes);
+      $("#seconds").html(seconds);
+      //- $("#milliseconds").html(prependSpace(milliseconds, 3));
+  }
+  
+
+script.
+  const thrombocyte_sessions = 36
+  const thrombocytes_per_sessions = 590e9
+  const total_number_of_thrombocytes = thrombocytes_per_sessions * thrombocyte_sessions
+  let thrombocyte_count = total_number_of_thrombocytes
+  const thrombocyte_start_date = new Date("2019-06-03 07:50:00+02:00");
+  const now = new Date();
+  
+
+  var update_every_in_ms = 25
+
+  function numberWithSpaces(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  }
+
+  setInterval(function () {
+    var birth_date = new Date("1999-05-21 12:41:00+02:00");
+    elapsed_moment = moment().diff(moment(birth_date));
+    elapsed = moment.duration(elapsed_moment);
+
+    let years = elapsed.years();
+    let months = elapsed.months();
+    let days = elapsed.days();
+    let hours = elapsed.hours();
+    let minutes = elapsed.minutes();
+    let seconds = elapsed.seconds();
+    //- let milliseconds = elapsed.milliseconds();
+
+    const thrombocyte_elapsed_moment = moment(now).diff(moment(thrombocyte_start_date));
+    thrombocyte_count += update_every_in_ms / thrombocyte_elapsed_moment * total_number_of_thrombocytes;
+    $("#thrombocytes_count").html(numberWithSpaces(Math.round(thrombocyte_count)));
+
+    // set the stopwatch
+    setStopwatch(years, months, days, hours, minutes, seconds);
+  }, update_every_in_ms)
+
+ul.list-unstyled
+    li.mb-1
+        i.fas.fa-heartbeat.fa-fw.mr-2(data-fa-transform='grow-1')
+        = t("cv.stats.age")
+        #time
+        span#years 
+        = ` ${t("cv.stats.years")}, `
+        span#months 
+        = ` ${t("cv.stats.months")}, `
+        span#days 
+        = ` ${t("cv.stats.days")},`
+        br
+        span#hours 
+        = ` ${t("cv.stats.hours")}, `
+        span#minutes 
+        = ` ${t("cv.stats.minutes")}, `
+        span#seconds 
+        = ` ${t("cv.stats.seconds")}`
+        //- span#milliseconds 000
+        //- = ` ${t("cv.stats.milliseconds")}`
+        //- br
+      
+
+    li.mb-1
+        i.fas.fa-hand-holding-heart.fa-fw.mr-2(data-fa-transform='grow-1')
+        = t("cv.stats.thrombocytes_title")
+        br
+        #thrombocytes
+        span#thrombocytes_count 
+        br
+        = ` ${t("cv.stats.thrombocytes")} ${t("cv.stats.thrombocytes_sessions", {count: thrombocyte_sessions})}`

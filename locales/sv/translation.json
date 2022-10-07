@@ -198,6 +198,20 @@
             "hp": "Provledare på Högskoleprovet",
             "election": "Röstmottagare i riksdag-, kommun- och regionvalen 2022",
             "hometownambassador": "Hemortsambassadör för Uppsala universitet"
+        },
+        "stats": {
+            "title": "Statistik",
+            "age": "Jag har levt i",
+            "years": "år",
+            "months": "mån",
+            "days": "d",
+            "hours": "h",
+            "minutes": "min",
+            "seconds": "s",
+            "milliseconds": "ms",
+            "thrombocytes_title": "Jag har donerat",
+            "thrombocytes": "trombocyter",
+            "thrombocytes_sessions": "under {{count}} sessioner"
         }
     },
     "home": {
