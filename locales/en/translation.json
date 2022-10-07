@@ -209,8 +209,14 @@
         "navbar": {
             "back": "Back to homepage"
         },
+        "consulting": {
+            "name": "IT Consulting Company",
+            "title": "Stjärnholm Consulting",
+            "description": "My consulting company where I do software development, smart homes and physics.",
+            "read_more": "Read more..."
+        },
         "bachelor": {
-            "name": "Bachelor thesis in Physics",
+            "name": "Bachelor Thesis in Physics",
             "title": "Neural network neutrino direction reconstruction",
             "description": "In plain English: Where did that particle come from? Let's mimic a brain to find out!",
             "read_more": "Read more...",

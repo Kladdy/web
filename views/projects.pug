@@ -3,6 +3,16 @@ head
 body
     // h3.center-text.margin-top Under construction... &#x1F3D7;
     .card
+        img.center-image.padding-top-10(src="/images/projects/consulting/logo1.png", alt="Stjärnholm Consulting", style='width:90%')
+        h2.name-contact-card= t("projects.consulting.name")
+        p.padding-left-right-10.title-contact-card= t("projects.consulting.title")
+        
+        p.card-description
+            = t("projects.consulting.description")
+        
+        a(href='https://consulting.stjarnholm.com')
+            p.button-card-card= t("projects.consulting.read_more")
+    .card
         img.center-image.padding-top-10(src="/images/projects/bachelor/logo1.jpeg", alt="neutrino-dnn", style='width:90%')
         h2.name-contact-card= t("projects.bachelor.name")
         p.padding-left-right-10.title-contact-card= t("projects.bachelor.title")

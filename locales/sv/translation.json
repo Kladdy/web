@@ -209,6 +209,12 @@
         "navbar": {
             "back": "Navigera till startsidan"
         },
+        "consulting": {
+            "name": "IT-konsultföretag",
+            "title": "Stjärnholm Consulting",
+            "description": "Mitt konsultföretag där jag gör uppdrag inom mjukvaruutveckling, smarta hem, och fysik.",
+            "read_more": "Läs mer..."
+        },
         "bachelor": {
             "name": "Kandidatuppsats i fysik",
             "title": "Rekonstruktion av neutrinoriktning med neurala nätverk",
