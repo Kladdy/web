@@ -193,6 +193,7 @@
         },
         "engagements": {
             "title": "Engagemang",
+            "selfemployed": "Egenföretagare på <a href='https://consulting.stjarnholm.com'> Stjärnholm Consulting</a>",
             "bannercarrier": "Fanbärare för Norrlands nation",
             "hp": "Provledare på Högskoleprovet",
             "election": "Röstmottagare i riksdag-, kommun- och regionvalen 2022",

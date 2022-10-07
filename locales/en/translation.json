@@ -200,6 +200,7 @@
         },
         "engagements": {
             "title": "Engagements",
+            "selfemployed": "Self-employed at <a href='https://consulting.stjarnholm.com'> Stjärnholm Consulting</a>",
             "bannercarrier": "Banner carrier for Norrland's nation (Student association in Uppsala)",
             "hp": "Test supervisor at the Swedish Scholastic Aptitude Test (Högskoleprovet, SweSAT)",
             "election": "Election worker at the 2022 Swedish general election",
