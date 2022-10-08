@@ -1,8 +1,14 @@
 //- last_updated should be formattes as follow: 07-10-2022 (dd-mm-yyyy)
-- var last_updated = "07-10-2022"
+- var last_updated = "08-10-2022"
 - var split = last_updated.split("-")
+-
+  var cv_downloaded = function () {
+    $.getJSON("https://api.countapi.xyz/hit/sigfrid.me/cv-downloads", function(response) {
+        $("#cv-downloads").text(response.value);
+    });
+  }
 
-a(href=`/downloads/cv-en-${last_updated}.pdf` download="CV - Sigfrid Stjärnholm (English)")
+a(href=`/downloads/cv-en-${last_updated}.pdf` download="CV - Sigfrid Stjärnholm (English)" onclick='cv_downloaded("en")')
   p
     i.far.fa-arrow-alt-circle-down.fa-fw.mr-2(data-fa-transform='grow-3') 
     span.flag-icon.flag-icon-gb
@@ -11,7 +17,7 @@ a(href=`/downloads/cv-en-${last_updated}.pdf` download="CV - Sigfrid Stjärnholm
     //- = t("cv.download.en")
 
 
-a(href=`/downloads/cv-sv-${last_updated}.pdf` download="CV - Sigfrid Stjärnholm (Svenska)")
+a(href=`/downloads/cv-sv-${last_updated}.pdf` download="CV - Sigfrid Stjärnholm (Svenska)" onclick='cv_downloaded("sv")')
   p
     i.far.fa-arrow-alt-circle-down.fa-fw.mr-2(data-fa-transform='grow-3') 
     span.flag-icon.flag-icon-se 

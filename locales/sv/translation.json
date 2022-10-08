@@ -212,9 +212,14 @@
             "milliseconds": "ms",
             "thrombocytes_title": "Jag har donerat",
             "thrombocytes": "trombocyter",
-            "thrombocytes_sessions": "under {{count}} sessioner",
+            "thrombocytes_sessions": "under {{count}} tillfällen",
             "papers_title": "Jag har publicerat",
-            "papers_count": "<a href='https://scholar.google.com/citations?hl=en&user=04sT1QsAAAAJ' target='_blank'>{{count}} vetenskapliga artiklar</a>"
+            "papers_count": "<a href='https://scholar.google.com/citations?hl=en&user=04sT1QsAAAAJ' target='_blank'>{{count}} vetenskapliga artiklar</a>",
+            "page-visists-count": "Min hemsida har besökts av",
+            "cv-downloads-count": "Mitt CV har laddats ner av",
+            "persons-count": "personer",
+            "date": "Datumet är",
+            "time": "och klockan är"
         }
     },
     "home": {

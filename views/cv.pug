@@ -3,11 +3,10 @@ head
 
 body
     //- this section should be hidden if the screen size is large
-    div.d-lg-none.text-center.pt-2.pb-5
-        p= t("cv.too-small-width")
+    div.text-center.pt-4.pb-2(id="top_download_to_hide")
+        p.d-lg-none= t("cv.too-small-width")
 
         include cv/download-cv.pug
-
 
     article.resume-wrapper.text-center.position-relative
         .resume-wrapper-inner.mx-auto.text-left.bg-white.shadow-lg

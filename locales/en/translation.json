@@ -219,9 +219,14 @@
             "milliseconds": "ms",
             "thrombocytes_title": "I have donated",
             "thrombocytes": "thrombocytes",
-            "thrombocytes_sessions": "during {{count}} sessions",
+            "thrombocytes_sessions": "during {{count}} occasions",
             "papers_title": "I have published",
-            "papers_count": "<a href='https://scholar.google.com/citations?hl=en&user=04sT1QsAAAAJ' target='_blank'>{{count}} scientific papers</a>"
+            "papers_count": "<a href='https://scholar.google.com/citations?hl=en&user=04sT1QsAAAAJ' target='_blank'>{{count}} scientific papers</a>",
+            "page-visists-count": "My website has been visited by",
+            "cv-downloads-count": "My CV has been downloaded by",
+            "persons-count": "people",
+            "date": "The date is",
+            "time": "and the time is"
         }
     },
     "contact": {

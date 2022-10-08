@@ -13,11 +13,22 @@ script.
   const now = new Date();
   
 
-  var update_every_in_ms = 25
+  var update_every_in_ms = 23
 
   function numberWithSpaces(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
   }
+
+  setInterval(function () {
+    if ($('.active.tab-pane').attr('id') == 'cv') {
+
+      // Throcobocytes
+      const thrombocyte_elapsed_moment = moment(now).diff(moment(thrombocyte_start_date));
+      thrombocyte_count += update_every_in_ms / thrombocyte_elapsed_moment * total_number_of_thrombocytes;
+      $("#thrombocytes_count").html(numberWithSpaces(Math.round(thrombocyte_count)));
+
+    }
+  }, update_every_in_ms)
 
   setInterval(function () {
     if ($('.active.tab-pane').attr('id') == 'cv') {
@@ -41,15 +52,19 @@ script.
       $("#minutes").html(minutes);
       $("#seconds").html(seconds);
 
-      // Throcobocytes
-      const thrombocyte_elapsed_moment = moment(now).diff(moment(thrombocyte_start_date));
-      thrombocyte_count += update_every_in_ms / thrombocyte_elapsed_moment * total_number_of_thrombocytes;
-      $("#thrombocytes_count").html(numberWithSpaces(Math.round(thrombocyte_count)));
-
+      $("#date").html(moment().format("YYYY-MM-DD"));
+      $("#time").html(moment().format("HH:mm:ss"));
     }
-  }, update_every_in_ms)
+  }, 1000)
 
 ul.list-unstyled
+    li.mb-1.font-weight-bold
+      = `${t("cv.stats.date")} `
+      span#date 
+      br
+      = ` ${t("cv.stats.time")} `
+      span#time
+
     li.mb-1
         i.fas.fa-heartbeat.fa-fw.mr-2(data-fa-transform='grow-1')
         = t("cv.stats.age")
@@ -86,3 +101,15 @@ ul.list-unstyled
         = t("cv.stats.papers_title")
         br
         != ` ${t("cv.stats.papers_count", {count: number_of_papers})}`
+
+    li.mb-1
+        i.fas.fa-globe.fa-fw.mr-2(data-fa-transform='grow-1')
+        = `${t("cv.stats.page-visists-count")} `
+        span#page-visits
+        != ` ${t("cv.stats.persons-count")}`
+
+    li.mb-1
+        i.fas.fa-id-card.fa-fw.mr-2(data-fa-transform='grow-1')
+        = `${t("cv.stats.cv-downloads-count")} `
+        span#cv-downloads
+        != ` ${t("cv.stats.persons-count")}`
