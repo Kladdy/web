@@ -21,9 +21,10 @@
         "hi5": "Welcome!"
     },
     "cv": {
+        "too-small-width": "The window is too small for the CV to look good. You can download the CV as a PDF instead.",
         "download": {
-            "sv": "Download this CV in Swedish as a PDF (last updated 07/10 2022)",
-            "en": "Download this CV in English as a PDF (last updated 07/10 2022)"
+            "sv": "Download this CV in Swedish as a PDF (last updated {{day}}/{{month}} {{year}})",
+            "en": "Download this CV in English as a PDF (last updated {{day}}/{{month}} {{year}})"
         },
         "header": {
             "location": "Uppsala, Sweden",

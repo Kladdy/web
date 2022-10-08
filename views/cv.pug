@@ -2,6 +2,13 @@
 head
 
 body
+    //- this section should be hidden if the screen size is large
+    div.d-lg-none.text-center.pt-2.pb-5
+        p= t("cv.too-small-width")
+
+        include cv/download-cv.pug
+
+
     article.resume-wrapper.text-center.position-relative
         .resume-wrapper-inner.mx-auto.text-left.bg-white.shadow-lg
             header.resume-header.pt-4.pt-md-0
@@ -142,23 +149,8 @@ body
                             // //resume-body
     footer.footer.text-center.pt-2.pb-5(id="cv_footer_to_hide")
 
-        <a href="/downloads/cv-en-07-10-2022.pdf" download="CV - Sigfrid Stjärnholm (English)">
-            p
-                i.far.fa-arrow-alt-circle-down.fa-fw.mr-2(data-fa-transform='grow-3') 
-                span.flag-icon.flag-icon-gb
-                = " "
-                = t("cv.download.en")
-        </a>
+        include cv/download-cv.pug
         
-        <a href="/downloads/cv-sv-07-10-2022.pdf" download="CV - Sigfrid Stjärnholm (Svenska)">
-            p
-                i.far.fa-arrow-alt-circle-down.fa-fw.mr-2(data-fa-transform='grow-3') 
-                span.flag-icon.flag-icon-se 
-                = " "
-                = t("cv.download.sv")
-        </a>
-        
-
         // /* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */                   
         small.copyright
             | Designed with 

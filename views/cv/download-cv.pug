@@ -1,0 +1,20 @@
+//- last_updated should be formattes as follow: 07-10-2022 (dd-mm-yyyy)
+- var last_updated = "07-10-2022"
+- var split = last_updated.split("-")
+
+a(href=`/downloads/cv-en-${last_updated}.pdf` download="CV - Sigfrid Stjärnholm (English)")
+  p
+    i.far.fa-arrow-alt-circle-down.fa-fw.mr-2(data-fa-transform='grow-3') 
+    span.flag-icon.flag-icon-gb
+    = " "
+    = t("cv.download.en", {day: split[0], month: split[1], year: split[2]})
+    //- = t("cv.download.en")
+
+
+a(href=`/downloads/cv-sv-${last_updated}.pdf` download="CV - Sigfrid Stjärnholm (Svenska)")
+  p
+    i.far.fa-arrow-alt-circle-down.fa-fw.mr-2(data-fa-transform='grow-3') 
+    span.flag-icon.flag-icon-se 
+    = " "
+    = t("cv.download.sv", {day: split[0], month: split[1], year: split[2]})
+    //- = t("cv.download.sv")

@@ -14,9 +14,10 @@
         "buttonHTML": "<button onClick='window.location.reload();'>$t(buttonText)</button>"
     },
     "cv": {
+        "too-small-width": "Fönstret är för litet för att CV:t ska se bra ut. Du kan hämta CV:t som en PDF istället.",
         "download": {
-            "sv": "Hämta detta CV på svenska som en PDF (senast uppdaterat 07/10 2022)",
-            "en": "Hämta detta CV på engelska som en PDF (senast uppdaterat 07/10 2022)"
+            "sv": "Hämta detta CV på svenska som en PDF (senast uppdaterat {{day}}/{{month}} {{year}})",
+            "en": "Hämta detta CV på engelska som en PDF (senast uppdaterat {{day}}/{{month}} {{year}})"
         },
         "edu": {
             "bachelor": {
