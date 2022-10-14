@@ -7,6 +7,14 @@ html
         link(rel='stylesheet', href='/css/navbar.css')
         link(rel='stylesheet', href='/css/typing.css')
 
+        // Bootstrap core JavaScript
+        script(src="/js/jquery-3.6.1.min.js")
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js")
+        script(src="/js/typing.js")
+        script(src="/js/moment.js")
+        script(src="/js/export-cv.js")
+        script(src="/js/cv.js")
+
         link(href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet")
 
         link(rel='apple-touch-icon-precomposed' sizes='57x57' href='/favicon/apple-touch-icon-57x57.png')
@@ -96,20 +104,5 @@ html
                     include cv.pug
                 #contact.tab-pane.container.fade(role='tabpanel' aria-labelledby='contact-tab')
                     include contact.pug
-
-        // Bootstrap core JavaScript
-        // Placed at the end of the document so the pages load faster
-        script(src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous")
-        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js")
-        script(src="/js/typing.js")
-        script(src="/js/moment.js")
-        script(src="/js/export-cv.js")
-        script(src="/js/cv.js")
-        //- script(async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3246827463757841' crossorigin='anonymous')
-        //- // Test
-        //- ins.adsbygoogle(style='display:block' data-ad-client='ca-pub-3246827463757841' data-ad-slot='1900193507' data-ad-format='auto' data-full-width-responsive='true')
-        //- script.
-        //-     (adsbygoogle = window.adsbygoogle || []).push({});
-
 
         block content
