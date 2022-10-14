@@ -7,6 +7,11 @@ html
         link(rel='stylesheet', href='/css/navbar.css')
         link(rel='stylesheet', href='/css/typing.css')
 
+        // Bootstrap core JavaScript
+        script(src="/js/jquery-3.6.1.min.js")
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js")
+        script(src="/js/typing.js")
+
         link(href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet")
         link(rel='stylesheet', href='/css/contact_card.css')
 
@@ -75,11 +80,5 @@ html
                                     a.dropdown-item(href="?lng=sv")
                                         span.flag-icon.flag-icon-se 
                                         |   Svenska
-
-        // Bootstrap core JavaScript
-        // Placed at the end of the document so the pages load faster
-        script(src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous")
-        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js")
-        script(src="/js/typing.js")
 
         block content
