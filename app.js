@@ -64,12 +64,12 @@ app.use(express.static('public'));
 //     res.sendFile('index.html', {root: path.join(__dirname, 'public')});
 // })
 app.get('/', (req, res) => {
-    res.render('layout', { title: 'Sigfrid Stjärnholm', root: path.join(__dirname, 'public/views') });
+    res.render('layout', { title: 'Sigfrid Stjärnholm', root: path.join(__dirname, 'public') });
 })
 
 //projects
 app.get('/projects/bachelor_project', (req, res) => {
-    res.render('projects/bachelor', { title: 'Sigfrid Stjärnholm', root: path.join(__dirname, 'public/views') });
+    res.render('projects/bachelor', { title: 'Sigfrid Stjärnholm', root: path.join(__dirname, 'public') });
 })
 
 // app.use('/', IndexRoutes);
