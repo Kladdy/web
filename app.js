@@ -7,8 +7,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var session = require('express-session')
 
-const IndexRoutes = require('./routes/index');
-const ProjectsRoutes = require('./routes/projects');
+// const IndexRoutes = require('./routes/index');
+// const ProjectsRoutes = require('./routes/projects');
 
 const app = express();
 
@@ -43,7 +43,7 @@ app.use(i18nextMiddleware.handle(i18next,  {
     })
 );
 
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'public/views'));
 app.set('view engine', 'pug');
 
 app.use(logger('dev'));
@@ -57,10 +57,25 @@ app.use(session({
     saveUninitialized: true
 }));
 
-app.use('/', IndexRoutes);
-app.use('/projects', ProjectsRoutes);
-
 app.use(express.static('public'));
+
+//index
+// app.get('/', (req, res) => {
+//     res.sendFile('index.html', {root: path.join(__dirname, 'public')});
+// })
+app.get('/', (req, res) => {
+    res.render('layout', { title: 'Sigfrid Stjärnholm', root: path.join(__dirname, 'public/views') });
+})
+
+//projects
+app.get('/projects/bachelor_project', (req, res) => {
+    res.render('projects/bachelor', { title: 'Sigfrid Stjärnholm', root: path.join(__dirname, 'public/views') });
+})
+
+// app.use('/', IndexRoutes);
+// app.use('/projects', ProjectsRoutes);
+
+
 
 // Error handling
 
