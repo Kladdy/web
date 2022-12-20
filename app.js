@@ -27,7 +27,7 @@ i18next
     .use(i18nextMiddleware.LanguageDetector)
     .init({
     backend: {
-        loadPath: __dirname + '/locales/{{lng}}/{{ns}}.json',
+        loadPath: __dirname + '/public/locales/{{lng}}/{{ns}}.json',
     },
     detection: {
         order: ['querystring', 'cookie'],
