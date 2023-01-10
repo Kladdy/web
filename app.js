@@ -36,7 +36,7 @@ i18next
     fallbackLng: 'en',
     supportedLngs: ['en', 'sv'],
     preload: ['en', 'sv'],
-    debug: false // Set to true when debugging
+    debug: true // Set to true when debugging
 });
 
 app.use(i18nextMiddleware.handle(i18next,  {
