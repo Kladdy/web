@@ -7,10 +7,6 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var session = require('express-session')
 
-const { readdirSync, lstatSync } = require('fs')
-const { join } = require('path')
-const localesFolder = join(__dirname, '/public/locales')
-
 // const IndexRoutes = require('./routes/index');
 // const ProjectsRoutes = require('./routes/projects');
 
@@ -39,17 +35,12 @@ i18next
     },
     fallbackLng: 'en',
     supportedLngs: ['en', 'sv'],
-    preload: readdirSync(localesFolder).filter((fileName) => {
-        const joinedPath = join(localesFolder, fileName)
-        return lstatSync(joinedPath).isDirectory()
-    }),
-    removeLngFromUrl: true,
-    // preload: ['en', 'sv'],
+    preload: ['en', 'sv'],
     debug: true // Set to true when debugging
 });
 
 app.use(i18nextMiddleware.handle(i18next,  {
-    removeLngFromUrl: false
+    removeLngFromUrl: true
     })
 );
 
