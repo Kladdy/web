@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const i18next = require('i18next');
 const i18nextMiddleware = require('i18next-express-middleware');
-const Backend = require('i18next-node-fs-backend');
+const Backend = require('i18next-fs-backend');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var session = require('express-session')
@@ -33,8 +33,8 @@ i18next
         order: ['querystring', 'cookie'],
         caches: ['cookie']
     },
-    lng: 'en',
     fallbackLng: 'en',
+    supportedLngs: ['en', 'sv'],
     preload: ['en', 'sv'],
     debug: false // Set to true when debugging
 });
