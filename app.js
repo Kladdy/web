@@ -43,12 +43,13 @@ i18next
         const joinedPath = join(localesFolder, fileName)
         return lstatSync(joinedPath).isDirectory()
     }),
+    removeLngFromUrl: true,
     // preload: ['en', 'sv'],
     debug: true // Set to true when debugging
 });
 
 app.use(i18nextMiddleware.handle(i18next,  {
-    removeLngFromUrl: true
+    removeLngFromUrl: false
     })
 );
 
