@@ -33,6 +33,7 @@ i18next
         order: ['querystring', 'cookie'],
         caches: ['cookie']
     },
+    lng: 'en',
     fallbackLng: 'en',
     preload: ['en', 'sv'],
     debug: false // Set to true when debugging
